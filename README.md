@@ -87,6 +87,5 @@ Własną domenę można podpiąć w każdej z tych usług.
 
 ## Do uzupełnienia (TODO)
 
-- `data/wydania.json` → `url` / `url_sha256` = `#` („Link wkrótce”) – brak hostingu ISO.
-- Bursztyn OS Lite → gotowe (rozmiar i sha256 wpisane), brakuje tylko `url` i `url_sha256`.
+- Pliki ISO obu edycji są w GitHub Releases: https://github.com/dawidrosa026-lang/bursztyn-os/releases/tag/v1.0
 - Strona opublikowana: https://dawidrosa026-lang.github.io/bursztyn-os/ (repozytorium github.com/dawidrosa026-lang/bursztyn-os).

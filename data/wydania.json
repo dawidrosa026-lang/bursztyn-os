@@ -1,8 +1,5 @@
 {
   "_opis": "Dane wydań Bursztyn OS. Strona pobierania (pobierz.html) jest generowana z tego pliku przez generuj.py, a w przeglądarce dodatkowo odświeżana przez js/main.js.",
-  "_TODO": [
-    "TODO: uzupełnić prawdziwe linki do pobrania (pole 'url'), gdy ISO będzie gdzieś hostowane. Teraz 'url' = '#' i przycisk pokazuje 'Link wkrótce'."
-  ],
   "wydania": [
     {
       "id": "bursztyn-os",
@@ -32,8 +29,8 @@
       "plik": "bursztyn-os-1.0-amd64.iso",
       "rozmiar": "ok. 2,1 GB (2 132 803 584 bajtów)",
       "sha256": "6d57692aeb96fe000c12aaadc8f638f9157442e70093609838fd6f880fb9045d",
-      "url": "#",
-      "url_sha256": "#"
+      "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.0/bursztyn-os-1.0-amd64.iso",
+      "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.0/bursztyn-os-1.0-amd64.iso.sha256"
     },
     {
       "id": "bursztyn-os-lite",
@@ -63,8 +60,8 @@
       "plik": "bursztyn-os-lite-1.0-amd64.iso",
       "rozmiar": "ok. 1,06 GB (1 059 061 760 bajtów)",
       "sha256": "f10d4b43aa5bdd53a558bab299ee034ff6cdf7f68197c3a7de394986fbe00eb1",
-      "url": "#",
-      "url_sha256": "#"
+      "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.0/bursztyn-os-lite-1.0-amd64.iso",
+      "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.0/bursztyn-os-lite-1.0-amd64.iso.sha256"
     }
   ]
 }
