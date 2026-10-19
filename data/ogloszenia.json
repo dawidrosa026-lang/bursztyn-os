@@ -1,0 +1,15 @@
+{
+  "_opis": "Ręcznie pisane ogłoszenia. Wpisy o wydaniach dochodzą automatycznie z manifest.json (pole 'historia'). Po zmianie uruchom: python3 generuj.py",
+  "wpisy": [
+    {
+      "id": "witaj-bursztyn-os-1-0",
+      "tytul": "Witaj, Bursztyn OS 1.0!",
+      "data": "2026-10-16",
+      "tresc": [
+        "Bursztyn OS 1.0 „Pierwsza kropla” to pierwsze wydanie naszego ciepłego, bursztynowego systemu na bazie Debiana 13 (trixie).",
+        "Od pierwszego uruchomienia system mówi po polsku. Ma dock z Menu po lewej stronie, górny pasek z zegarem i wskaźnikiem aktualizacji, ekran powitalny ze skrótami, Centrum aplikacji, własny motyw okien, kursor, dźwięki i animowany ekran startowy.",
+        "Obraz ISO jest gotowy i uruchamia się w trybie BIOS i UEFI. Link do pobrania pojawi się na stronie Pobierz, gdy obraz trafi na serwer. Trwają też prace nad lżejszą edycją Bursztyn OS Lite dla słabszych komputerów."
+      ]
+    }
+  ]
+}

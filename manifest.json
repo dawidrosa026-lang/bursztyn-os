@@ -1,0 +1,29 @@
+{
+  "wersja": "1.0",
+  "data": "2026-10-16",
+  "nazwa": "Bursztyn OS 1.0 „Pierwsza kropla”",
+  "zmiany": [
+    "Pulpit Bursztyn OS na bazie Debiana 13 z aplikacjami KDE (Dolphin, Konsole, Kate, Okular, Gwenview, Ark, Spectacle, KCalc)",
+    "Dock na dole ekranu z bursztynowym Menu po lewej stronie",
+    "Górny pasek z zegarem, datą, kalendarzem i zasobnikiem systemowym",
+    "Ikony i skróty na pulpicie",
+    "Ciemny motyw Breeze, polski interfejs i polskie tłumaczenia",
+    "Pakiet tapet Bursztyn OS do wyboru w ustawieniach (Bałtyk, Las, Kryształ, Jasny, Minimal)",
+    "Ekran powitalny ze skrótami do najważniejszych rzeczy",
+    "Centrum aplikacji z opcją „Zaznacz wszystkie aktualizacje”",
+    "Wskaźnik aktualizacji na górnym pasku i codzienne sprawdzanie aktualizacji",
+    "Bursztynowy motyw okien i bursztynowy kursor",
+    "Zestaw dźwięków systemowych Bursztyn OS",
+    "Animowany ekran startowy z logo i motyw Plymouth",
+    "Obraz ISO Bursztyn OS do zainstalowania na innym komputerze",
+    "Powiadomienia o nowych wersjach Bursztyn OS z listą zmian"
+  ],
+  "pobierz": "https://dawidrosa026-lang.github.io/bursztyn-os/pobierz.html",
+  "historia": [
+    {
+      "wersja": "1.0",
+      "data": "2026-10-16",
+      "zmiany": ["Pierwsze wydanie Bursztyn OS"]
+    }
+  ]
+}

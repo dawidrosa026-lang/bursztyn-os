@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pl" class="bez-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>O projekcie i FAQ – Bursztyn OS</title>
+<meta name="description" content="Czym jest Bursztyn OS, na czym bazuje i odpowiedzi na najczęstsze pytania.">
+<meta name="theme-color" content="#140d07">
+<meta property="og:title" content="O projekcie i FAQ – Bursztyn OS">
+<meta property="og:description" content="Czym jest Bursztyn OS, na czym bazuje i odpowiedzi na najczęstsze pytania.">
+<meta property="og:image" content="https://dawidrosa026-lang.github.io/bursztyn-os/img/zrzuty/ekran-powitalny.jpg">
+<link rel="canonical" href="https://dawidrosa026-lang.github.io/bursztyn-os/o-projekcie.html">
+<meta property="og:url" content="https://dawidrosa026-lang.github.io/bursztyn-os/o-projekcie.html">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pl_PL">
+<link rel="icon" href="img/logo.svg" type="image/svg+xml">
+<link rel="icon" href="img/favicon.png" type="image/png" sizes="64x64">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Bursztyn OS – Aktualności" href="feed.xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="pomin" href="#tresc">Przejdź do treści</a>
+<header class="naglowek">
+  <div class="kontener">
+    <a class="marka" href="index.html"><img src="img/logo.svg" alt="" width="34" height="34">Bursztyn <span>OS</span></a>
+    <button class="menu-przelacznik" type="button" aria-expanded="false" aria-controls="nawigacja">☰ Menu</button>
+    <nav class="nawigacja" id="nawigacja" aria-label="Główna nawigacja"><a href="index.html">Start</a><a href="aktualnosci.html">Aktualności</a><a href="o-projekcie.html" aria-current="page">O projekcie</a><a class="przycisk" href="pobierz.html">⤓ Pobierz</a></nav>
+  </div>
+</header>
+<main id="tresc">
+<section class="strona-tytul"><div class="kontener">
+  <span class="etykieta">O projekcie</span><h1>O Bursztyn OS</h1>
+  <p>Bursztyn OS to polski remiks Debiana 13 tworzony przez Dawida. Cel jest prosty: system, który po instalacji jest od razu ładny, wygodny i po polsku – bez godzin konfigurowania.</p>
+</div></section>
+<section class="sekcja" style="padding-top:24px">
+  <div class="kontener">
+    <div class="siatka f">
+      <div class="karta funkcja"><div class="ikona" aria-hidden="true">◆</div><h3>Stabilna baza</h3><p>Debian 13 (trixie) i jego oficjalne repozytoria z poprawkami bezpieczeństwa.</p></div>
+      <div class="karta funkcja"><div class="ikona" aria-hidden="true">✺</div><h3>Ciepły wygląd</h3><p>Ciemny Breeze, bursztynowy motyw okien, kursor, tapety, dźwięki i animacja startu.</p></div>
+      <div class="karta funkcja"><div class="ikona" aria-hidden="true">PL</div><h3>Po polsku</h3><p>Polski interfejs, tłumaczenia aplikacji i instalator bez dodatkowej konfiguracji.</p></div>
+      <div class="karta funkcja"><div class="ikona" aria-hidden="true">✓</div><h3>Prosty w obsłudze</h3><p>Ekran powitalny, Centrum aplikacji i automatyczne powiadomienia o aktualizacjach.</p></div>
+    </div>
+  </div>
+</section>
+<section class="sekcja ciemna" id="faq">
+  <div class="kontener" style="max-width:860px">
+    <div class="sekcja-naglowek"><span class="etykieta">FAQ</span><h2>Najczęstsze pytania</h2></div>
+    <div style="display:grid;gap:12px">
+      <details class="karta"><summary>Czym jest Bursztyn OS?</summary><div><p>To polski remiks Debiana 13 (trixie): ten sam stabilny system i te same pakiety, ale z gotowym, dopracowanym pulpitem w ciepłych, bursztynowych kolorach i polskim interfejsem od pierwszego uruchomienia.</p></div></details>
+      <details class="karta"><summary>Czy Bursztyn OS jest darmowy?</summary><div><p>Tak. Bursztyn OS składa się z wolnego oprogramowania z Debiana oraz własnych motywów i skryptów. Edycja pełna zawiera też przeglądarkę Google Chrome, która ma własną licencję Google.</p></div></details>
+      <details class="karta"><summary>Którą edycję wybrać?</summary><div><p>Pełną, jeśli komputer ma co najmniej 4 GB RAM – dostajesz aplikacje KDE i Chrome. Lite jest dla słabszych komputerów z 1–2 GB RAM (pulpit zajmuje ok. 500 MB RAM) i używa lekkich aplikacji GTK oraz Firefox ESR.</p></div></details>
+      <details class="karta"><summary>Skąd biorą się aktualizacje?</summary><div><p>Z oficjalnych repozytoriów Debiana, więc dostajesz te same poprawki bezpieczeństwa co Debian. System sprawdza je codziennie i pokazuje na górnym pasku. Zainstalujesz je jednym kliknięciem w Centrum aplikacji („Zaznacz wszystkie aktualizacje”).</p></div></details>
+      <details class="karta"><summary>Jak dowiem się o nowej wersji Bursztyn OS?</summary><div><p>System sam sprawdza plik <a href="manifest.json">manifest.json</a> publikowany na tej stronie. Gdy pojawi się nowa wersja, na górnym pasku zobaczysz „★ Nowa wersja”, a okno „Co nowego” pokaże listę zmian. Ogłoszenia trafiają też do zakładki <a href="aktualnosci.html">Aktualności</a> i <a href="feed.xml">kanału RSS</a>.</p></div></details>
+      <details class="karta"><summary>Czy mogę wypróbować system bez instalowania?</summary><div><p>Tak. Obraz ISO uruchamia się na żywo z pendrive’a (BIOS i UEFI). Nic nie zmienia na dysku, dopóki nie uruchomisz instalatora.</p></div></details>
+      <details class="karta"><summary>Czy instalacja była testowana?</summary><div><p>Obraz ISO 1.0 uruchamia się na maszynie wirtualnej, wchodzi na pulpit i startuje polski instalator. Pełna instalacja na dysk fizycznego komputera nie została jeszcze sprawdzona – przed instalacją zrób kopię ważnych danych.</p></div></details>
+      <details class="karta"><summary>Czy to oficjalny Debian?</summary><div><p>Nie. Bursztyn OS jest niezależnym projektem opartym na Debianie i nie jest oficjalnym projektem Debiana.</p></div></details>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="stopka">
+  <div class="kontener">
+    <div>
+      <a class="marka" href="index.html"><img src="img/logo.svg" alt="" width="34" height="34">Bursztyn <span>OS</span></a>
+      <p>Ciepły i lekki system na bazie Debiana 13, po polsku od pierwszego uruchomienia.</p>
+    </div>
+    <div>
+      <h4>Strona</h4>
+      <ul><li><a href="index.html">Start</a></li><li><a href="pobierz.html">Pobierz</a></li><li><a href="aktualnosci.html">Aktualności</a></li><li><a href="o-projekcie.html">O projekcie i FAQ</a></li></ul>
+    </div>
+    <div>
+      <h4>Dla zaawansowanych</h4>
+      <ul><li><a href="feed.xml">Kanał RSS</a></li><li><a href="manifest.json">manifest.json</a></li><li><a href="data/wydania.json">wydania.json</a></li><li><a href="https://www.debian.org/">Debian</a></li></ul>
+    </div>
+    <p class="prawne">Bursztyn OS nie jest oficjalnym projektem Debiana. Debian jest znakiem towarowym Software in the Public Interest, Inc.</p>
+  </div>
+</footer>
+<script src="js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+{
+  "_opis": "Dane wydań Bursztyn OS. Strona pobierania (pobierz.html) jest generowana z tego pliku przez generuj.py, a w przeglądarce dodatkowo odświeżana przez js/main.js.",
+  "_TODO": [
+    "TODO: uzupełnić prawdziwe linki do pobrania (pole 'url'), gdy ISO będzie gdzieś hostowane. Teraz 'url' = '#' i przycisk pokazuje 'Link wkrótce'."
+  ],
+  "wydania": [
+    {
+      "id": "bursztyn-os",
+      "nazwa": "Bursztyn OS 1.0",
+      "edycja": "Pełna",
+      "wersja": "1.0",
+      "data": "2026-10-16",
+      "status": "gotowe",
+      "opis": "Pełny pulpit Bursztyn OS z aplikacjami KDE i przeglądarką Google Chrome. Dla większości współczesnych komputerów.",
+      "aplikacje": [
+        "Dolphin",
+        "Konsole",
+        "Kate",
+        "Okular",
+        "Gwenview",
+        "Ark",
+        "Spectacle",
+        "KCalc",
+        "Google Chrome",
+        "Centrum aplikacji"
+      ],
+      "wymagania": [
+        "Procesor 64-bitowy (amd64)",
+        "4 GB RAM (zalecane)",
+        "20 GB miejsca na dysku"
+      ],
+      "plik": "bursztyn-os-1.0-amd64.iso",
+      "rozmiar": "ok. 2,1 GB (2 132 803 584 bajtów)",
+      "sha256": "6d57692aeb96fe000c12aaadc8f638f9157442e70093609838fd6f880fb9045d",
+      "url": "#",
+      "url_sha256": "#"
+    },
+    {
+      "id": "bursztyn-os-lite",
+      "nazwa": "Bursztyn OS Lite 1.0",
+      "edycja": "Lite",
+      "wersja": "1.0",
+      "data": "2026-10-16",
+      "status": "gotowe",
+      "opis": "Lżejsza edycja dla słabszych i starszych komputerów: lekkie aplikacje GTK i Firefox ESR, ten sam bursztynowy wygląd.",
+      "aplikacje": [
+        "Thunar",
+        "Terminal XFCE",
+        "Mousepad",
+        "Atril",
+        "Ristretto",
+        "Xarchiver",
+        "Zrzuty ekranu",
+        "Galculator",
+        "Firefox ESR",
+        "Centrum aplikacji"
+      ],
+      "wymagania": [
+        "Procesor 64-bitowy (amd64)",
+        "1,5 GB RAM (min. 1 GB)",
+        "10 GB miejsca na dysku"
+      ],
+      "plik": "bursztyn-os-lite-1.0-amd64.iso",
+      "rozmiar": "ok. 1,06 GB (1 059 061 760 bajtów)",
+      "sha256": "f10d4b43aa5bdd53a558bab299ee034ff6cdf7f68197c3a7de394986fbe00eb1",
+      "url": "#",
+      "url_sha256": "#"
+    }
+  ]
+}
