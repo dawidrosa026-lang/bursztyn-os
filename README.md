@@ -77,7 +77,7 @@ Przed publikacją wpisz docelowy adres w `data/strona.json` (`adres`) i uruchom 
   w *Settings → Pages* wybierz gałąź `main` i folder `/ (root)`. Adres:
   `https://<konto>.github.io/bursztyn-os/`. Plik `.nojekyll` jest już dodany.
   Uwaga: GitHub nie przyjmie pliku ISO 2 GB do repozytorium (limit 100 MB) – ISO wrzuć do
-  *Releases* (limit 2 GiB na plik; ISO 1.0 ma 2 132 803 584 bajtów = 1,99 GiB, więc mieści się, ale z niewielkim zapasem).
+  *Releases* (limit 2 GiB na plik; ISO 1.1 ma 1 823 358 976 bajtów = 1,70 GiB).
 - **Netlify** – *Add new site → Deploy manually* i przeciągnij folder (lub połącz z repozytorium GitHub).
   Nie wymaga ustawień budowania.
 - **Cloudflare Pages** – *Create → Pages → Upload assets* (lub połączenie z GitHubem), bez polecenia
@@ -87,5 +87,5 @@ Własną domenę można podpiąć w każdej z tych usług.
 
 ## Do uzupełnienia (TODO)
 
-- Pliki ISO obu edycji są w GitHub Releases: https://github.com/dawidrosa026-lang/bursztyn-os/releases/tag/v1.0
+- Pliki ISO obu edycji są w GitHub Releases: https://github.com/dawidrosa026-lang/bursztyn-os/releases/tag/v1.1
 - Strona opublikowana: https://dawidrosa026-lang.github.io/bursztyn-os/ (repozytorium github.com/dawidrosa026-lang/bursztyn-os).
