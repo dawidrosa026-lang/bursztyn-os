@@ -6,6 +6,9 @@
 <atom:link href="https://dawidrosa026-lang.github.io/bursztyn-os/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Ciepły i lekki system na bazie Debiana 13</description>
 <language>pl</language>
+<managingEditor>287702832+dawidrosa026-lang@users.noreply.github.com (Dawid Rosa)</managingEditor>
+<webMaster>287702832+dawidrosa026-lang@users.noreply.github.com (Dawid Rosa)</webMaster>
+<copyright>Bursztyn OS – twórca: Dawid Rosa</copyright>
 <lastBuildDate>Mon, 19 Oct 2026 12:00:00 +0000</lastBuildDate>
 <item>
 <title>Bursztyn OS 1.1 „Złota iskra” już jest!</title>
@@ -13,6 +16,7 @@
 <guid isPermaLink="true">https://dawidrosa026-lang.github.io/bursztyn-os/aktualnosci.html#bursztyn-os-1-1-zlota-iskra</guid>
 <pubDate>Mon, 19 Oct 2026 12:00:00 +0000</pubDate>
 <category>Ogłoszenie</category>
+<author>287702832+dawidrosa026-lang@users.noreply.github.com (Dawid Rosa)</author>
 <description>&lt;p&gt;Wydaliśmy Bursztyn OS 1.1 „Złota iskra” – pierwszą aktualizację systemu, w pełnej edycji i w edycji Lite.&lt;/p&gt;&lt;p&gt;Najważniejsza zmiana: system od razu po instalacji sprawdza tę stronę i sam powiadamia o kolejnych wersjach – na górnym pasku pojawi się „★ Nowa wersja”, a okno „Co nowego” pokaże listę zmian. Do tego najnowsze poprawki bezpieczeństwa Debiana 13, Centrum aplikacji bez pytania o hasło dla administratora, polskie litery w menu startowym i Bursztyn OS w instalatorze.&lt;/p&gt;&lt;p&gt;Obraz pełnej edycji jest mniejszy: ma ok. 1,8 GB zamiast 2,1 GB. Oba obrazy pobierzesz ze strony Pobierz. Komputery z wersją 1.0 nie dostaną powiadomienia, więc warto zainstalować 1.1 z nowego obrazu.&lt;/p&gt;</description>
 </item>
 <item>
@@ -21,6 +25,7 @@
 <guid isPermaLink="true">https://dawidrosa026-lang.github.io/bursztyn-os/aktualnosci.html#wydanie-1-1</guid>
 <pubDate>Mon, 19 Oct 2026 12:00:00 +0000</pubDate>
 <category>Wydanie</category>
+<author>287702832+dawidrosa026-lang@users.noreply.github.com (Dawid Rosa)</author>
 <description>&lt;p&gt;Pierwsza aktualizacja Bursztyn OS: powiadomienia o nowych wersjach działają od razu po instalacji, są najnowsze poprawki bezpieczeństwa Debiana 13, polskie litery w menu startowym i mniejsze obrazy ISO.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Powiadomienia o nowych wersjach działają od razu po instalacji: system sprawdza stronę Bursztyn OS&lt;/li&gt;&lt;li&gt;Najnowsze poprawki bezpieczeństwa Debiana 13, w tym nowsze jądro Linux&lt;/li&gt;&lt;li&gt;Centrum aplikacji na zainstalowanym systemie otwiera się bez pytania o hasło (dla administratora)&lt;/li&gt;&lt;li&gt;Polskie litery w menu startowym BIOS i UEFI oraz poprawiony tryb awaryjny&lt;/li&gt;&lt;li&gt;Nazwa i bursztynowe barwy Bursztyn OS w instalatorze&lt;/li&gt;&lt;li&gt;Poprawione źródła pakietów w pełnej wersji&lt;/li&gt;&lt;li&gt;Mniejsze obrazy ISO dzięki usunięciu zbędnych tłumaczeń i dokumentacji&lt;/li&gt;&lt;/ul&gt;</description>
 </item>
 <item>
@@ -29,6 +34,7 @@
 <guid isPermaLink="true">https://dawidrosa026-lang.github.io/bursztyn-os/aktualnosci.html#witaj-bursztyn-os-1-0</guid>
 <pubDate>Fri, 16 Oct 2026 12:00:00 +0000</pubDate>
 <category>Ogłoszenie</category>
+<author>287702832+dawidrosa026-lang@users.noreply.github.com (Dawid Rosa)</author>
 <description>&lt;p&gt;Bursztyn OS 1.0 „Pierwsza kropla” to pierwsze wydanie naszego ciepłego, bursztynowego systemu na bazie Debiana 13 (trixie).&lt;/p&gt;&lt;p&gt;Od pierwszego uruchomienia system mówi po polsku. Ma dock z Menu po lewej stronie, górny pasek z zegarem i wskaźnikiem aktualizacji, ekran powitalny ze skrótami, Centrum aplikacji, własny motyw okien, kursor, dźwięki i animowany ekran startowy.&lt;/p&gt;&lt;p&gt;Obraz ISO jest gotowy i uruchamia się w trybie BIOS i UEFI. Link do pobrania pojawi się na stronie Pobierz, gdy obraz trafi na serwer. Trwają też prace nad lżejszą edycją Bursztyn OS Lite dla słabszych komputerów.&lt;/p&gt;</description>
 </item>
 <item>
@@ -37,6 +43,7 @@
 <guid isPermaLink="true">https://dawidrosa026-lang.github.io/bursztyn-os/aktualnosci.html#wydanie-1-0</guid>
 <pubDate>Fri, 16 Oct 2026 12:00:00 +0000</pubDate>
 <category>Wydanie</category>
+<author>287702832+dawidrosa026-lang@users.noreply.github.com (Dawid Rosa)</author>
 <description>&lt;ul&gt;&lt;li&gt;Pulpit Bursztyn OS na bazie Debiana 13 z aplikacjami KDE (Dolphin, Konsole, Kate, Okular, Gwenview, Ark, Spectacle, KCalc)&lt;/li&gt;&lt;li&gt;Dock na dole ekranu z bursztynowym Menu po lewej stronie&lt;/li&gt;&lt;li&gt;Górny pasek z zegarem, datą, kalendarzem i zasobnikiem systemowym&lt;/li&gt;&lt;li&gt;Ikony i skróty na pulpicie&lt;/li&gt;&lt;li&gt;Ciemny motyw Breeze, polski interfejs i polskie tłumaczenia&lt;/li&gt;&lt;li&gt;Pakiet tapet Bursztyn OS do wyboru w ustawieniach (Bałtyk, Las, Kryształ, Jasny, Minimal)&lt;/li&gt;&lt;li&gt;Ekran powitalny ze skrótami do najważniejszych rzeczy&lt;/li&gt;&lt;li&gt;Centrum aplikacji z opcją „Zaznacz wszystkie aktualizacje”&lt;/li&gt;&lt;li&gt;Wskaźnik aktualizacji na górnym pasku i codzienne sprawdzanie aktualizacji&lt;/li&gt;&lt;li&gt;Bursztynowy motyw okien i bursztynowy kursor&lt;/li&gt;&lt;li&gt;Zestaw dźwięków systemowych Bursztyn OS&lt;/li&gt;&lt;li&gt;Animowany ekran startowy z logo i motyw Plymouth&lt;/li&gt;&lt;li&gt;Obraz ISO Bursztyn OS do zainstalowania na innym komputerze&lt;/li&gt;&lt;li&gt;Powiadomienia o nowych wersjach Bursztyn OS z listą zmian&lt;/li&gt;&lt;/ul&gt;</description>
 </item>
 </channel>

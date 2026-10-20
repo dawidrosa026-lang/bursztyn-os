@@ -1,5 +1,12 @@
 {
   "adres": "https://dawidrosa026-lang.github.io/bursztyn-os",
   "tytul": "Bursztyn OS",
-  "opis": "Ciepły i lekki system na bazie Debiana 13"
+  "opis": "Ciepły i lekki system na bazie Debiana 13",
+  "tworca": {
+    "imie": "Dawid Rosa",
+    "rola": "twórca i opiekun projektu",
+    "github": "dawidrosa026-lang",
+    "url": "https://github.com/dawidrosa026-lang",
+    "email": "287702832+dawidrosa026-lang@users.noreply.github.com"
+  }
 }

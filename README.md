@@ -3,6 +3,12 @@
 Statyczna strona (HTML + CSS + odrobina JavaScriptu) dla Bursztyn OS, polskiego remiksu Debiana 13.
 Nie wymaga żadnego kroku budowania: wystarczy wrzucić zawartość tego folderu na dowolny hosting plików statycznych.
 
+## Twórca
+
+Bursztyn OS stworzył **Dawid Rosa** ([@dawidrosa026-lang](https://github.com/dawidrosa026-lang)) – twórca i opiekun projektu.
+Dane twórcy są w `data/strona.json` (pole `tworca`); `generuj.py` wstawia je do stopki każdej strony,
+`<meta name="author">`, sekcji „Twórca” na `o-projekcie.html` i do `feed.xml`.
+
 ## Struktura
 
 ```
@@ -89,3 +95,6 @@ Własną domenę można podpiąć w każdej z tych usług.
 
 - Pliki ISO obu edycji są w GitHub Releases: https://github.com/dawidrosa026-lang/bursztyn-os/releases/tag/v1.1
 - Strona opublikowana: https://dawidrosa026-lang.github.io/bursztyn-os/ (repozytorium github.com/dawidrosa026-lang/bursztyn-os).
+
+---
+Bursztyn OS – twórca: [Dawid Rosa](https://github.com/dawidrosa026-lang)
