@@ -39,7 +39,7 @@
 
 <section class="sekcja" style="padding-top:24px">
   <div class="kontener">
-    <p class="uwaga">Obrazy ISO nie są jeszcze opublikowane na serwerze. Przyciski pobierania pojawią się tutaj, gdy tylko pliki będą dostępne.</p>
+    <p class="uwaga">Bursztyn OS 1.1 jest gotowy do pobrania w dwóch edycjach. Pliki ISO są udostępniane przez GitHub Releases. Zobacz też <a href="#zrzuty-lite">zrzuty ekranu edycji Lite</a>.</p>
     <div class="siatka dwie" id="wydania" style="margin-top:22px">
 <!-- GEN:WYDANIA -->
 <article class="karta wydanie polecane" id="bursztyn-os">
@@ -78,7 +78,22 @@
   </div>
 </section>
 
-<section class="sekcja ciemna" id="sprawdz">
+<section class="sekcja ciemna" id="zrzuty-lite">
+  <div class="kontener">
+    <div class="sekcja-naglowek"><span class="etykieta">Bursztyn OS Lite 1.1</span><h2>Zrzuty ekranu – Bursztyn OS Lite</h2><p>Tak wygląda edycja Lite uruchomiona na żywo z pendrive’a. Kliknij zrzut, aby go powiększyć.</p></div>
+    <div class="siatka galeria">
+      <figure class="zrzut"><a href="img/zrzuty/lite/lite-pulpit.jpg" data-podglad="Bursztyn OS Lite – Pulpit Lite"><picture><source srcset="img/zrzuty/lite/lite-pulpit.webp" type="image/webp"><img src="img/zrzuty/lite/lite-pulpit.jpg" alt="Bursztyn OS Lite – Pulpit Lite" width="1280" height="800" loading="lazy"></picture><figcaption><strong>Pulpit Lite</strong>Czysty pulpit: górny pasek z zegarem i wskaźnikiem aktualizacji, dock z menu na początku.</figcaption></a></figure>
+      <figure class="zrzut"><a href="img/zrzuty/lite/lite-ekran-powitalny.jpg" data-podglad="Bursztyn OS Lite – Ekran powitalny"><picture><source srcset="img/zrzuty/lite/lite-ekran-powitalny.webp" type="image/webp"><img src="img/zrzuty/lite/lite-ekran-powitalny.jpg" alt="Bursztyn OS Lite – Ekran powitalny" width="1280" height="800" loading="lazy"></picture><figcaption><strong>Ekran powitalny</strong>„Witaj w Bursztyn OS Lite” – skróty do przeglądarki, plików, ustawień i Centrum aplikacji.</figcaption></a></figure>
+      <figure class="zrzut"><a href="img/zrzuty/lite/lite-menu.jpg" data-podglad="Bursztyn OS Lite – Menu aplikacji"><picture><source srcset="img/zrzuty/lite/lite-menu.webp" type="image/webp"><img src="img/zrzuty/lite/lite-menu.jpg" alt="Bursztyn OS Lite – Menu aplikacji" width="1280" height="800" loading="lazy"></picture><figcaption><strong>Menu aplikacji</strong>Wszystkie programy w jednym miejscu, z wyszukiwarką – wystarczy zacząć pisać.</figcaption></a></figure>
+      <figure class="zrzut"><a href="img/zrzuty/lite/lite-pliki.jpg" data-podglad="Bursztyn OS Lite – Menedżer plików Thunar"><picture><source srcset="img/zrzuty/lite/lite-pliki.webp" type="image/webp"><img src="img/zrzuty/lite/lite-pliki.jpg" alt="Bursztyn OS Lite – Menedżer plików Thunar" width="1280" height="800" loading="lazy"></picture><figcaption><strong>Menedżer plików Thunar</strong>Szybki i lekki menedżer plików z polskimi nazwami katalogów.</figcaption></a></figure>
+      <figure class="zrzut"><a href="img/zrzuty/lite/lite-centrum-aplikacji.jpg" data-podglad="Bursztyn OS Lite – Centrum aplikacji"><picture><source srcset="img/zrzuty/lite/lite-centrum-aplikacji.webp" type="image/webp"><img src="img/zrzuty/lite/lite-centrum-aplikacji.jpg" alt="Bursztyn OS Lite – Centrum aplikacji" width="1280" height="800" loading="lazy"></picture><figcaption><strong>Centrum aplikacji</strong>Instalowanie i aktualizowanie programów z repozytoriów Debiana 13.</figcaption></a></figure>
+      <figure class="zrzut"><a href="img/zrzuty/lite/lite-terminal-ram.jpg" data-podglad="Bursztyn OS Lite – Mało pamięci RAM"><picture><source srcset="img/zrzuty/lite/lite-terminal-ram.webp" type="image/webp"><img src="img/zrzuty/lite/lite-terminal-ram.jpg" alt="Bursztyn OS Lite – Mało pamięci RAM" width="1280" height="800" loading="lazy"></picture><figcaption><strong>Mało pamięci RAM</strong>Po starcie z otwartymi programami system zajmuje ok. 620 MiB RAM.</figcaption></a></figure>
+    </div>
+    <p style="text-align:center;margin-top:22px"><a class="przycisk" href="https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.1/bursztyn-os-lite-1.1-amd64.iso">⤓ Pobierz Bursztyn OS Lite 1.1</a></p>
+  </div>
+</section>
+
+<section class="sekcja" id="sprawdz">
   <div class="kontener">
     <div class="sekcja-naglowek"><span class="etykieta">Krok 1</span><h2>Sprawdź sumę kontrolną SHA-256</h2>
       <p>Suma kontrolna potwierdza, że plik pobrał się w całości i nie został zmieniony. Wynik musi być identyczny z sumą podaną przy wydaniu.</p></div>
@@ -99,7 +114,7 @@
   </div>
 </section>
 
-<section class="sekcja" id="pendrive">
+<section class="sekcja ciemna" id="pendrive">
   <div class="kontener">
     <div class="sekcja-naglowek"><span class="etykieta">Krok 2</span><h2>Nagraj obraz na pendrive</h2>
       <p>Potrzebujesz pendrive’a o pojemności co najmniej 4 GB. <strong>Wszystkie dane na pendrivie zostaną usunięte.</strong></p></div>
@@ -118,7 +133,7 @@ sudo dd if=bursztyn-os-1.1-amd64.iso \
   </div>
 </section>
 
-<section class="sekcja ciemna" id="uruchom">
+<section class="sekcja" id="uruchom">
   <div class="kontener">
     <div class="sekcja-naglowek"><span class="etykieta">Krok 3</span><h2>Uruchom i zainstaluj</h2></div>
     <ol class="kroki" style="max-width:760px;margin:0 auto">
