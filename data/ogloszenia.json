@@ -2,6 +2,17 @@
   "_opis": "Ręcznie pisane ogłoszenia. Wpisy o wydaniach dochodzą automatycznie z manifest.json (pole 'historia'). Po zmianie uruchom: python3 generuj.py",
   "wpisy": [
     {
+      "id": "bursztyn-os-1-2-bursztynowy-swit",
+      "tytul": "Bursztyn OS 1.2 „Bursztynowy świt” już jest!",
+      "data": "2026-10-21",
+      "tresc": [
+        "Wydaliśmy Bursztyn OS 1.2 „Bursztynowy świt” – w pełnej edycji i w edycji Lite.",
+        "Największa nowość to kreator „Konfiguracja Bursztyn OS”, który wita Cię przy pierwszym logowaniu po instalacji: pomoże połączyć się z Wi-Fi, wybrać ciemny lub jasny motyw i tapetę, ustawić aktualizacje i jednym kliknięciem doinstalować popularne programy – LibreOffice, Thunderbird, VLC, GIMP, OBS Studio, Steam, Discord i Spotify. Kreator możesz pominąć i uruchomić później z menu.",
+        "Poprawiliśmy też to, co wyszło w testach instalacji 1.1: aktualizacje i Centrum aplikacji działają od razu po instalacji, foldery mają polskie nazwy, instalator od razu ustawia Polskę i polski format daty, a menu GRUB i ekran logowania są uporządkowane. Na komputerach z wersją 1.1 pojawi się na górnym pasku „★ Nowa wersja”."
+      ],
+      "link": "pobierz.html"
+    },
+    {
       "id": "bursztyn-os-1-1-zlota-iskra",
       "tytul": "Bursztyn OS 1.1 „Złota iskra” już jest!",
       "data": "2026-10-19",

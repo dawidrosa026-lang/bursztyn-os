@@ -1,18 +1,27 @@
 {
-  "wersja": "1.1",
-  "data": "2026-10-19",
-  "nazwa": "Bursztyn OS 1.1 „Złota iskra”",
+  "wersja": "1.2",
+  "data": "2026-10-21",
+  "nazwa": "Bursztyn OS 1.2 „Bursztynowy świt”",
   "zmiany": [
-    "Powiadomienia o nowych wersjach działają od razu po instalacji: system sprawdza stronę Bursztyn OS",
-    "Najnowsze poprawki bezpieczeństwa Debiana 13, w tym nowsze jądro Linux",
-    "Centrum aplikacji na zainstalowanym systemie otwiera się bez pytania o hasło (dla administratora)",
-    "Polskie litery w menu startowym BIOS i UEFI oraz poprawiony tryb awaryjny",
-    "Nazwa i bursztynowe barwy Bursztyn OS w instalatorze",
-    "Poprawione źródła pakietów w pełnej wersji",
-    "Mniejsze obrazy ISO dzięki usunięciu zbędnych tłumaczeń i dokumentacji"
+    "Nowy kreator „Konfiguracja Bursztyn OS” przy pierwszym uruchomieniu: Wi-Fi, motyw ciemny lub jasny, tapeta, aktualizacje i doinstalowanie popularnych programów (LibreOffice, Thunderbird, VLC, GIMP, OBS Studio, Steam, Discord, Spotify)",
+    "Po instalacji na dysku aktualizacje i Centrum aplikacji działają od razu: system sam dodaje źródła pakietów Debiana, a listę aktualizacji odświeża codziennie w tle",
+    "Polskie nazwy folderów (Pulpit zamiast Desktop) i „Otwórz terminal tutaj” w menu pulpitu",
+    "Instalator pełnej edycji od razu ustawia Polskę (Warszawa) i polski format daty, przyjmuje też prostsze hasła (po odznaczeniu pola „Wymagaj silnych haseł”)",
+    "Poprawiony pokaz slajdów w instalatorze, a twórca – Dawid Rosa – podpisany w instalatorze, na ekranie powitalnym i w informacjach o systemie",
+    "Lista użytkowników na ekranie logowania, menu GRUB po polsku, ikona instalatora znika po instalacji",
+    "Uporządkowany dock pełnej edycji: Menu, Witaj, Chrome, Dolphin, Konsole, Kate, Centrum aplikacji, Ustawienia",
+    "Edycja Lite: 6 tapet zamiast 3 i poprawiona ikona menedżera plików",
+    "Najnowsze poprawki bezpieczeństwa Debiana 13 i mniejsze obrazy ISO (bez starego jądra w instalatorze)"
   ],
   "pobierz": "https://dawidrosa026-lang.github.io/bursztyn-os/pobierz.html",
   "historia": [
+    {
+      "wersja": "1.2",
+      "data": "2026-10-21",
+      "zmiany": [
+        "Kreator „Konfiguracja Bursztyn OS” przy pierwszym uruchomieniu (sieć, wygląd, aktualizacje, programy), działające od razu aktualizacje po instalacji, polskie foldery i menu, poprawki instalatora i najnowsze poprawki bezpieczeństwa Debiana 13."
+      ]
+    },
     {
       "wersja": "1.1",
       "data": "2026-10-19",
