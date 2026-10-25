@@ -9,7 +9,25 @@
 <managingEditor>287702832+dawidrosa026-lang@users.noreply.github.com (Dawid Rosa)</managingEditor>
 <webMaster>287702832+dawidrosa026-lang@users.noreply.github.com (Dawid Rosa)</webMaster>
 <copyright>Bursztyn OS – twórca: Dawid Rosa</copyright>
-<lastBuildDate>Wed, 21 Oct 2026 12:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 25 Oct 2026 12:00:00 +0000</lastBuildDate>
+<item>
+<title>Bursztyn OS 1.3 „Miodowy blask” już jest!</title>
+<link>https://dawidrosa026-lang.github.io/bursztyn-os/aktualnosci.html#bursztyn-os-1-3-miodowy-blask</link>
+<guid isPermaLink="true">https://dawidrosa026-lang.github.io/bursztyn-os/aktualnosci.html#bursztyn-os-1-3-miodowy-blask</guid>
+<pubDate>Sun, 25 Oct 2026 12:00:00 +0000</pubDate>
+<category>Ogłoszenie</category>
+<author>287702832+dawidrosa026-lang@users.noreply.github.com (Dawid Rosa)</author>
+<description>&lt;p&gt;Wydaliśmy Bursztyn OS 1.3 „Miodowy blask” – w pełnej edycji i w edycji Lite.&lt;/p&gt;&lt;p&gt;Największa nowość to nowe Menu Bursztyn pod pierwszą ikoną w docku: bursztynowy panel z wyszukiwarką, która działa od razu po otwarciu (także bez polskich znaków), ulubionymi i ostatnio używanymi programami, uporządkowanymi polskimi kategoriami oraz przyciskami Zablokuj, Wyloguj, Uruchom ponownie i Wyłącz. Menu ma też własną ikonę w docku, łatwą do odróżnienia od ekranu powitalnego.&lt;/p&gt;&lt;p&gt;W wydaniu są również najnowsze poprawki bezpieczeństwa Debiana 13. Na komputerach z wersją 1.2 pojawi się na górnym pasku „★ Nowa wersja” – nowe menu otrzymasz, instalując 1.3 z obrazu ISO.&lt;/p&gt;</description>
+</item>
+<item>
+<title>Wydanie: Bursztyn OS 1.3 „Miodowy blask”</title>
+<link>https://dawidrosa026-lang.github.io/bursztyn-os/aktualnosci.html#wydanie-1-3</link>
+<guid isPermaLink="true">https://dawidrosa026-lang.github.io/bursztyn-os/aktualnosci.html#wydanie-1-3</guid>
+<pubDate>Sun, 25 Oct 2026 12:00:00 +0000</pubDate>
+<category>Wydanie</category>
+<author>287702832+dawidrosa026-lang@users.noreply.github.com (Dawid Rosa)</author>
+<description>&lt;p&gt;Nowe Menu Bursztyn: wyszukiwarka, ulubione i ostatnio używane programy, uporządkowane polskie kategorie, przyciski zasilania i własna ikona w docku, a do tego najnowsze poprawki bezpieczeństwa Debiana 13.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Nowe Menu Bursztyn zamiast starego okna programów: bursztynowy, zaokrąglony panel nad dockiem z powitaniem i wyszukiwarką&lt;/li&gt;&lt;li&gt;Ulubione programy (prawy przycisk myszy → Dodaj do ulubionych) i lista ostatnio używanych na stronie startowej menu&lt;/li&gt;&lt;li&gt;Wyszukiwanie od razu po otwarciu menu, także bez polskich znaków („wyglad” znajdzie „Wygląd”); Enter uruchamia pierwszy wynik&lt;/li&gt;&lt;li&gt;Uporządkowane polskie kategorie programów (Internet, Biuro, Grafika, Multimedia, Gry, Narzędzia, System, Ustawienia…), bez zbędnych i zdublowanych pozycji; edytory tekstu (Kate, Mousepad) w kategorii Biuro&lt;/li&gt;&lt;li&gt;Przyciski Zablokuj, Wyloguj, Uruchom ponownie i Wyłącz w menu – z potwierdzeniem przed wyłączeniem&lt;/li&gt;&lt;li&gt;Własna ikona menu w docku, inna niż ikona ekranu powitalnego&lt;/li&gt;&lt;li&gt;Najnowsze poprawki bezpieczeństwa Debiana 13&lt;/li&gt;&lt;/ul&gt;</description>
+</item>
 <item>
 <title>Bursztyn OS 1.2 „Bursztynowy świt” już jest!</title>
 <link>https://dawidrosa026-lang.github.io/bursztyn-os/aktualnosci.html#bursztyn-os-1-2-bursztynowy-swit</link>
@@ -20,13 +38,13 @@
 <description>&lt;p&gt;Wydaliśmy Bursztyn OS 1.2 „Bursztynowy świt” – w pełnej edycji i w edycji Lite.&lt;/p&gt;&lt;p&gt;Największa nowość to kreator „Konfiguracja Bursztyn OS”, który wita Cię przy pierwszym logowaniu po instalacji: pomoże połączyć się z Wi-Fi, wybrać ciemny lub jasny motyw i tapetę, ustawić aktualizacje i jednym kliknięciem doinstalować popularne programy – LibreOffice, Thunderbird, VLC, GIMP, OBS Studio, Steam, Discord i Spotify. Kreator możesz pominąć i uruchomić później z menu.&lt;/p&gt;&lt;p&gt;Poprawiliśmy też to, co wyszło w testach instalacji 1.1: aktualizacje i Centrum aplikacji działają od razu po instalacji, foldery mają polskie nazwy, instalator od razu ustawia Polskę i polski format daty, a menu GRUB i ekran logowania są uporządkowane. Na komputerach z wersją 1.1 pojawi się na górnym pasku „★ Nowa wersja”.&lt;/p&gt;</description>
 </item>
 <item>
-<title>Wydanie: Bursztyn OS 1.2 „Bursztynowy świt”</title>
+<title>Wydanie: Bursztyn OS 1.2</title>
 <link>https://dawidrosa026-lang.github.io/bursztyn-os/aktualnosci.html#wydanie-1-2</link>
 <guid isPermaLink="true">https://dawidrosa026-lang.github.io/bursztyn-os/aktualnosci.html#wydanie-1-2</guid>
 <pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
 <category>Wydanie</category>
 <author>287702832+dawidrosa026-lang@users.noreply.github.com (Dawid Rosa)</author>
-<description>&lt;p&gt;Kreator „Konfiguracja Bursztyn OS” przy pierwszym uruchomieniu (sieć, wygląd, aktualizacje, programy), działające od razu aktualizacje po instalacji, polskie foldery i menu, poprawki instalatora i najnowsze poprawki bezpieczeństwa Debiana 13.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Nowy kreator „Konfiguracja Bursztyn OS” przy pierwszym uruchomieniu: Wi-Fi, motyw ciemny lub jasny, tapeta, aktualizacje i doinstalowanie popularnych programów (LibreOffice, Thunderbird, VLC, GIMP, OBS Studio, Steam, Discord, Spotify)&lt;/li&gt;&lt;li&gt;Po instalacji na dysku aktualizacje i Centrum aplikacji działają od razu: system sam dodaje źródła pakietów Debiana, a listę aktualizacji odświeża codziennie w tle&lt;/li&gt;&lt;li&gt;Polskie nazwy folderów (Pulpit zamiast Desktop) i „Otwórz terminal tutaj” w menu pulpitu&lt;/li&gt;&lt;li&gt;Instalator pełnej edycji od razu ustawia Polskę (Warszawa) i polski format daty, przyjmuje też prostsze hasła (po odznaczeniu pola „Wymagaj silnych haseł”)&lt;/li&gt;&lt;li&gt;Poprawiony pokaz slajdów w instalatorze, a twórca – Dawid Rosa – podpisany w instalatorze, na ekranie powitalnym i w informacjach o systemie&lt;/li&gt;&lt;li&gt;Lista użytkowników na ekranie logowania, menu GRUB po polsku, ikona instalatora znika po instalacji&lt;/li&gt;&lt;li&gt;Uporządkowany dock pełnej edycji: Menu, Witaj, Chrome, Dolphin, Konsole, Kate, Centrum aplikacji, Ustawienia&lt;/li&gt;&lt;li&gt;Edycja Lite: 6 tapet zamiast 3 i poprawiona ikona menedżera plików&lt;/li&gt;&lt;li&gt;Najnowsze poprawki bezpieczeństwa Debiana 13 i mniejsze obrazy ISO (bez starego jądra w instalatorze)&lt;/li&gt;&lt;/ul&gt;</description>
+<description>&lt;ul&gt;&lt;li&gt;Kreator „Konfiguracja Bursztyn OS” przy pierwszym uruchomieniu (sieć, wygląd, aktualizacje, programy), działające od razu aktualizacje po instalacji, polskie foldery i menu, poprawki instalatora i najnowsze poprawki bezpieczeństwa Debiana 13.&lt;/li&gt;&lt;/ul&gt;</description>
 </item>
 <item>
 <title>Bursztyn OS 1.1 „Złota iskra” już jest!</title>

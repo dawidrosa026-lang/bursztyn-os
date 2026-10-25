@@ -1,20 +1,25 @@
 {
-  "wersja": "1.2",
-  "data": "2026-10-21",
-  "nazwa": "Bursztyn OS 1.2 „Bursztynowy świt”",
+  "wersja": "1.3",
+  "data": "2026-10-25",
+  "nazwa": "Bursztyn OS 1.3 „Miodowy blask”",
   "zmiany": [
-    "Nowy kreator „Konfiguracja Bursztyn OS” przy pierwszym uruchomieniu: Wi-Fi, motyw ciemny lub jasny, tapeta, aktualizacje i doinstalowanie popularnych programów (LibreOffice, Thunderbird, VLC, GIMP, OBS Studio, Steam, Discord, Spotify)",
-    "Po instalacji na dysku aktualizacje i Centrum aplikacji działają od razu: system sam dodaje źródła pakietów Debiana, a listę aktualizacji odświeża codziennie w tle",
-    "Polskie nazwy folderów (Pulpit zamiast Desktop) i „Otwórz terminal tutaj” w menu pulpitu",
-    "Instalator pełnej edycji od razu ustawia Polskę (Warszawa) i polski format daty, przyjmuje też prostsze hasła (po odznaczeniu pola „Wymagaj silnych haseł”)",
-    "Poprawiony pokaz slajdów w instalatorze, a twórca – Dawid Rosa – podpisany w instalatorze, na ekranie powitalnym i w informacjach o systemie",
-    "Lista użytkowników na ekranie logowania, menu GRUB po polsku, ikona instalatora znika po instalacji",
-    "Uporządkowany dock pełnej edycji: Menu, Witaj, Chrome, Dolphin, Konsole, Kate, Centrum aplikacji, Ustawienia",
-    "Edycja Lite: 6 tapet zamiast 3 i poprawiona ikona menedżera plików",
-    "Najnowsze poprawki bezpieczeństwa Debiana 13 i mniejsze obrazy ISO (bez starego jądra w instalatorze)"
+    "Nowe Menu Bursztyn zamiast starego okna programów: bursztynowy, zaokrąglony panel nad dockiem z powitaniem i wyszukiwarką",
+    "Ulubione programy (prawy przycisk myszy → Dodaj do ulubionych) i lista ostatnio używanych na stronie startowej menu",
+    "Wyszukiwanie od razu po otwarciu menu, także bez polskich znaków („wyglad” znajdzie „Wygląd”); Enter uruchamia pierwszy wynik",
+    "Uporządkowane polskie kategorie programów (Internet, Biuro, Grafika, Multimedia, Gry, Narzędzia, System, Ustawienia…), bez zbędnych i zdublowanych pozycji; edytory tekstu (Kate, Mousepad) w kategorii Biuro",
+    "Przyciski Zablokuj, Wyloguj, Uruchom ponownie i Wyłącz w menu – z potwierdzeniem przed wyłączeniem",
+    "Własna ikona menu w docku, inna niż ikona ekranu powitalnego",
+    "Najnowsze poprawki bezpieczeństwa Debiana 13"
   ],
   "pobierz": "https://dawidrosa026-lang.github.io/bursztyn-os/pobierz.html",
   "historia": [
+    {
+      "wersja": "1.3",
+      "data": "2026-10-25",
+      "zmiany": [
+        "Nowe Menu Bursztyn: wyszukiwarka, ulubione i ostatnio używane programy, uporządkowane polskie kategorie, przyciski zasilania i własna ikona w docku, a do tego najnowsze poprawki bezpieczeństwa Debiana 13."
+      ]
+    },
     {
       "wersja": "1.2",
       "data": "2026-10-21",

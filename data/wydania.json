@@ -3,10 +3,10 @@
   "wydania": [
     {
       "id": "bursztyn-os",
-      "nazwa": "Bursztyn OS 1.2",
+      "nazwa": "Bursztyn OS 1.3",
       "edycja": "Pełna",
-      "wersja": "1.2",
-      "data": "2026-10-21",
+      "wersja": "1.3",
+      "data": "2026-10-25",
       "status": "gotowe",
       "opis": "Pełny pulpit Bursztyn OS z aplikacjami KDE i przeglądarką Google Chrome. Dla większości współczesnych komputerów.",
       "aplikacje": [
@@ -26,18 +26,18 @@
         "4 GB RAM (zalecane)",
         "20 GB miejsca na dysku"
       ],
-      "plik": "bursztyn-os-1.2-amd64.iso",
+      "plik": "bursztyn-os-1.3-amd64.iso",
       "rozmiar": "ok. 1,7 GB (1 716 240 384 bajtów)",
-      "sha256": "f98f9fc144a1e25ca73c9894e4cd399e41e3c6e1b2b32bae28fc2232faa58e80",
-      "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.2/bursztyn-os-1.2-amd64.iso",
-      "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.2/bursztyn-os-1.2-amd64.iso.sha256"
+      "sha256": "81f670e07e9869d9f8b146c405d4fc9a6e700f8e96f3c22fe47e6b01096992b3",
+      "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.3/bursztyn-os-1.3-amd64.iso",
+      "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.3/bursztyn-os-1.3-amd64.iso.sha256"
     },
     {
       "id": "bursztyn-os-lite",
-      "nazwa": "Bursztyn OS Lite 1.2",
+      "nazwa": "Bursztyn OS Lite 1.3",
       "edycja": "Lite",
-      "wersja": "1.2",
-      "data": "2026-10-21",
+      "wersja": "1.3",
+      "data": "2026-10-25",
       "status": "gotowe",
       "opis": "Lżejsza edycja dla słabszych i starszych komputerów: lekkie aplikacje GTK i Firefox ESR, ten sam bursztynowy wygląd.",
       "aplikacje": [
@@ -57,11 +57,11 @@
         "1,5 GB RAM (min. 1 GB)",
         "10 GB miejsca na dysku"
       ],
-      "plik": "bursztyn-os-lite-1.2-amd64.iso",
-      "rozmiar": "ok. 0,96 GB (955 252 736 bajtów)",
-      "sha256": "2ac77e02c0ad8b555cf59593cf9b1c994b05c941f5b90d3d20ef79e19671c734",
-      "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.2/bursztyn-os-lite-1.2-amd64.iso",
-      "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.2/bursztyn-os-lite-1.2-amd64.iso.sha256"
+      "plik": "bursztyn-os-lite-1.3-amd64.iso",
+      "rozmiar": "ok. 0,95 GB (952 107 008 bajtów)",
+      "sha256": "63b89d1047378c1cfef4cd4ef986cdf3702dd413f807dd6079fd775aa3422630",
+      "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.3/bursztyn-os-lite-1.3-amd64.iso",
+      "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.3/bursztyn-os-lite-1.3-amd64.iso.sha256"
     }
   ]
 }

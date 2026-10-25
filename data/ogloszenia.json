@@ -2,6 +2,17 @@
   "_opis": "Ręcznie pisane ogłoszenia. Wpisy o wydaniach dochodzą automatycznie z manifest.json (pole 'historia'). Po zmianie uruchom: python3 generuj.py",
   "wpisy": [
     {
+      "id": "bursztyn-os-1-3-miodowy-blask",
+      "tytul": "Bursztyn OS 1.3 „Miodowy blask” już jest!",
+      "data": "2026-10-25",
+      "tresc": [
+        "Wydaliśmy Bursztyn OS 1.3 „Miodowy blask” – w pełnej edycji i w edycji Lite.",
+        "Największa nowość to nowe Menu Bursztyn pod pierwszą ikoną w docku: bursztynowy panel z wyszukiwarką, która działa od razu po otwarciu (także bez polskich znaków), ulubionymi i ostatnio używanymi programami, uporządkowanymi polskimi kategoriami oraz przyciskami Zablokuj, Wyloguj, Uruchom ponownie i Wyłącz. Menu ma też własną ikonę w docku, łatwą do odróżnienia od ekranu powitalnego.",
+        "W wydaniu są również najnowsze poprawki bezpieczeństwa Debiana 13. Na komputerach z wersją 1.2 pojawi się na górnym pasku „★ Nowa wersja” – nowe menu otrzymasz, instalując 1.3 z obrazu ISO."
+      ],
+      "link": "pobierz.html"
+    },
+    {
       "id": "bursztyn-os-1-2-bursztynowy-swit",
       "tytul": "Bursztyn OS 1.2 „Bursztynowy świt” już jest!",
       "data": "2026-10-21",
