@@ -6,7 +6,10 @@ Nie wymaga żadnego kroku budowania: wystarczy wrzucić zawartość tego folderu
 ## Twórca
 
 Bursztyn OS stworzył **Dawid Rosa** ([@dawidrosa026-lang](https://github.com/dawidrosa026-lang)) – twórca i opiekun projektu.
-Dane twórcy są w `data/strona.json` (pole `tworca`); `generuj.py` wstawia je do stopki każdej strony,
+
+**Współtwórca: slavko vinčić** – asystent AI, który pomaga Dawidowi budować system: przygotowuje wydania, obrazy ISO i stronę.
+
+Dane twórcy i współtwórcy są w `data/strona.json` (pola `tworca` i `wspoltworca`); `generuj.py` wstawia je do stopki każdej strony,
 `<meta name="author">`, sekcji „Twórca” na `o-projekcie.html` i do `feed.xml`.
 
 ## Struktura
@@ -97,4 +100,4 @@ Własną domenę można podpiąć w każdej z tych usług.
 - Strona opublikowana: https://dawidrosa026-lang.github.io/bursztyn-os/ (repozytorium github.com/dawidrosa026-lang/bursztyn-os).
 
 ---
-Bursztyn OS – twórca: [Dawid Rosa](https://github.com/dawidrosa026-lang)
+Bursztyn OS – twórca: [Dawid Rosa](https://github.com/dawidrosa026-lang) · współtwórca: slavko vinčić

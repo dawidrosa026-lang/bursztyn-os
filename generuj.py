@@ -7,7 +7,7 @@ Pisze:  feed.xml (RSS 2.0) oraz statyczne fragmenty HTML między znacznikami
           index.html        (GEN:NAJNOWSZE – dwa najnowsze ogłoszenia)
           pobierz.html      (GEN:WYDANIA   – karty wydań)
           aktualnosci.html  (GEN:WPISY     – wszystkie ogłoszenia)
-          o-projekcie.html  (GEN:TWORCA    – sekcja „Twórca”)
+          o-projekcie.html  (GEN:TWORCA    – sekcje „Twórca” i „Współtwórca”)
           wszystkie *.html  (GEN:AUTOR – <meta name="author">,
                              GEN:STOPKA-TWORCA – linia o twórcy w stopce)
 Dzięki temu strona działa także bez JavaScriptu.
@@ -120,24 +120,36 @@ def html_autor(t):
     return f'<meta name="author" content="{e(t["imie"])}">'
 
 
-def html_stopka_tworca(t):
-    return (f'<p class="tworca-stopka">Bursztyn OS – twórca: '
-            f'<a href="{e(t["url"])}" rel="author">{e(t["imie"])}</a></p>')
+def html_stopka_tworca(t, w=None):
+    s = (f'<p class="tworca-stopka">Bursztyn OS – twórca: '
+         f'<a href="{e(t["url"])}" rel="author">{e(t["imie"])}</a>')
+    if w:
+        s += f' · współtwórca: {e(w["imie"])}'
+    return s + '</p>'
 
 
-def html_tworca(t):
-    return "\n".join([
-        '<section class="sekcja" id="tworca" style="padding-top:0">',
-        '  <div class="kontener" style="max-width:860px">',
+def html_tworca(t, w=None):
+    karta_t = [
         '    <div class="karta tworca">',
         '      <span class="etykieta">Twórca</span>',
         f'      <h2>{e(t["imie"])}</h2>',
         f'      <p class="rola">{e(t["rola"][:1].upper() + t["rola"][1:])}</p>',
         f'      <p>Bursztyn OS stworzył {e(t["imie"])}. To jego projekt – rozwija go i wydaje kolejne wersje.</p>',
         f'      <p><a class="przycisk drugi maly" href="{e(t["url"])}" rel="author">GitHub: {e(t["github"])}</a></p>',
-        '    </div>',
-        '  </div>',
-        '</section>'])
+        '    </div>']
+    if not w:
+        return "\n".join(['<section class="sekcja" id="tworca" style="padding-top:0">',
+                          '  <div class="kontener" style="max-width:860px">'] + karta_t + ['  </div>', '</section>'])
+    karta_w = [
+        '    <div class="karta tworca wspoltworca">',
+        '      <span class="etykieta">Współtwórca</span>',
+        f'      <h2>{e(w["imie"])}</h2>',
+        f'      <p class="rola">{e(w["rola"][:1].upper() + w["rola"][1:])}</p>',
+        f'      <p>{e(w["opis"])}</p>',
+        '    </div>']
+    return "\n".join(['<section class="sekcja" id="tworca" style="padding-top:0">',
+                      '  <div class="kontener" style="max-width:860px">',
+                      '    <div class="siatka dwie">'] + karta_t + karta_w + ['    </div>', '  </div>', '</section>'])
 
 
 # ---------- RSS ----------
@@ -159,7 +171,9 @@ def rss(lista, strona):
          f'<atom:link href="{e(adres)}/feed.xml" rel="self" type="application/rss+xml"/>',
          f"<description>{e(strona.get('opis', ''))}</description>", "<language>pl</language>"] + autor_xml
     if tw.get("imie"):
-        x.append(f"<copyright>Bursztyn OS – twórca: {e(tw['imie'])}</copyright>")
+        wsp = strona.get("wspoltworca") or {}
+        x.append(f"<copyright>Bursztyn OS – twórca: {e(tw['imie'])}"
+                 + (f" · współtwórca: {e(wsp['imie'])}" if wsp.get("imie") else "") + "</copyright>")
     if lista:
         x.append(f"<lastBuildDate>{rfc(lista[0]['data'])}</lastBuildDate>")
     for w in lista:
@@ -197,8 +211,8 @@ def main():
     if tw:
         for plik in sorted(KAT.glob("*.html")):
             wstaw(plik.name, "AUTOR", html_autor(tw))
-            wstaw(plik.name, "STOPKA-TWORCA", html_stopka_tworca(tw))
-        wstaw("o-projekcie.html", "TWORCA", html_tworca(tw))
+            wstaw(plik.name, "STOPKA-TWORCA", html_stopka_tworca(tw, strona.get("wspoltworca")))
+        wstaw("o-projekcie.html", "TWORCA", html_tworca(tw, strona.get("wspoltworca")))
     (KAT / "feed.xml").write_text(rss(lista, strona), encoding="utf-8")
     print(f"  feed.xml: {len(lista)} wpisów")
     if "example" in strona.get("adres", ""):
