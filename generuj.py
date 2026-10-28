@@ -146,7 +146,12 @@ def html_tworca(t, w=None):
         return "\n".join(['<section class="sekcja" id="tworca" style="padding-top:0">',
                           '  <div class="kontener" style="max-width:860px">'] + karta_t + ['  </div>', '</section>'])
     karta_w = [
-        '    <div class="karta tworca wspoltworca">',
+        '    <div class="karta tworca wspoltworca">']
+    if w.get("zdjecie"):
+        karta_w.append(f'      <picture><source type="image/webp" srcset="{e(w["zdjecie"])}.webp">'
+                       f'<img class="tworca-foto" src="{e(w["zdjecie"])}.jpg" width="400" height="400" loading="lazy" '
+                       f'alt="{e(w.get("zdjecie_alt") or w["imie"])}"></picture>')
+    karta_w += [
         '      <span class="etykieta">Współtwórca</span>',
         f'      <h2>{e(w["imie"])}</h2>',
         f'      <p class="rola">{e(w["rola"][:1].upper() + w["rola"][1:])}</p>',
