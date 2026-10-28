@@ -9,6 +9,8 @@ Bursztyn OS stworzył **Dawid Rosa** ([@dawidrosa026-lang](https://github.com/da
 
 **Współtwórca: slavko vinčić** – asystent AI, który pomaga Dawidowi budować system: przygotowuje wydania, obrazy ISO i stronę.
 
+**Piosenka projektu:** „Bursztynowy kod” – ambientowy synthwave Dawida Rosy (stworzona w Suno), do posłuchania na stronie (`o-projekcie.html#piosenka`) i [na Suno](https://suno.com/s/g9peTz1175w3Qrm3).
+
 Dane twórcy i współtwórcy są w `data/strona.json` (pola `tworca` i `wspoltworca`); `generuj.py` wstawia je do stopki każdej strony,
 `<meta name="author">`, sekcji „Twórca” na `o-projekcie.html` i do `feed.xml`.
 

@@ -191,3 +191,10 @@ details.karta>div p:last-child{margin-bottom:0}
 .tworca h2{margin:0 0 2px}
 .tworca .rola{color:var(--amber);font-weight:600;margin-top:0}
 .tworca p{color:var(--przygaszony)}
+
+/* piosenka „Bursztynowy kod” */
+.karta.piosenka{display:grid;grid-template-columns:220px 1fr;gap:24px;align-items:center}
+.piosenka-okladka{width:220px;height:220px;object-fit:cover;border-radius:14px;border:1px solid var(--linia);box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.piosenka-tresc h3{margin:0 0 4px}
+.piosenka-odtwarzacz{border:0;border-radius:12px;background:var(--tlo3);margin:8px 0 14px;max-width:100%}
+@media (max-width:640px){.karta.piosenka{grid-template-columns:1fr;text-align:center}.piosenka-okladka{margin:0 auto;width:min(220px,70vw);height:auto;aspect-ratio:1}}
