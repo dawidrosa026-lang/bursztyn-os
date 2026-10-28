@@ -130,7 +130,12 @@ def html_stopka_tworca(t, w=None):
 
 def html_tworca(t, w=None):
     karta_t = [
-        '    <div class="karta tworca">',
+        '    <div class="karta tworca">']
+    if t.get("zdjecie"):
+        karta_t.append(f'      <picture><source type="image/webp" srcset="{e(t["zdjecie"])}.webp">'
+                       f'<img class="tworca-foto" src="{e(t["zdjecie"])}.jpg" width="600" height="600" loading="lazy" '
+                       f'alt="{e(t.get("zdjecie_alt") or t["imie"])}"></picture>')
+    karta_t += [
         '      <span class="etykieta">Twórca</span>',
         f'      <h2>{e(t["imie"])}</h2>',
         f'      <p class="rola">{e(t["rola"][:1].upper() + t["rola"][1:])}</p>',
