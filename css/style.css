@@ -201,3 +201,14 @@ details.karta>div p:last-child{margin-bottom:0}
 
 /* zdjęcie twórcy */
 .tworca-foto{display:block;width:132px;height:132px;object-fit:cover;object-position:50% 25%;border-radius:50%;border:3px solid var(--amber);box-shadow:0 0 0 5px rgba(255,170,40,.14),0 10px 26px rgba(0,0,0,.4);margin:0 0 14px}
+
+/* archiwum wersji (pobierz.html) */
+.archiwum-lista{margin-top:8px}
+.archiwum-wydanie{display:flex;flex-direction:column;gap:8px;border-color:rgba(245,166,35,.28)}
+.archiwum-wydanie h3{font-size:1.2rem;margin:0;color:var(--jasny)}
+.archiwum-data{margin:0;color:var(--przygaszony);font-size:.92rem}
+.archiwum-pliki{list-style:none;margin:4px 0 0;padding:0;display:flex;flex-direction:column;gap:8px}
+.archiwum-pliki li{padding:8px 12px;background:var(--tlo3);border:1px solid var(--linia);border-radius:10px;overflow-wrap:anywhere}
+.archiwum-edycja{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:2px 9px;border-radius:999px;background:rgba(245,166,35,.13);color:var(--jasny);border:1px solid rgba(245,166,35,.35);margin-right:6px}
+.archiwum-rozmiar{color:var(--przygaszony);font-size:.88rem}
+.archiwum-link{margin:auto 0 0;padding-top:4px}

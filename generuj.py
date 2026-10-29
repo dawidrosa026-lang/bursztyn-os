@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """Bursztyn OS – generator treści strony (bez zależności, tylko Python 3).
 
-Czyta:  manifest.json, data/wydania.json, data/ogloszenia.json, data/strona.json
+Czyta:  manifest.json, data/wydania.json, data/archiwum.json, data/ogloszenia.json, data/strona.json
 Pisze:  feed.xml (RSS 2.0) oraz statyczne fragmenty HTML między znacznikami
         <!-- GEN:NAZWA --> ... <!-- /GEN:NAZWA --> w plikach:
           index.html        (GEN:NAJNOWSZE – dwa najnowsze ogłoszenia)
           pobierz.html      (GEN:WYDANIA   – karty wydań)
+          pobierz.html      (GEN:ARCHIWUM  – „Archiwum wersji”: starsze wydania)
           aktualnosci.html  (GEN:WPISY     – wszystkie ogłoszenia)
           o-projekcie.html  (GEN:TWORCA    – sekcje „Twórca” i „Współtwórca”)
           wszystkie *.html  (GEN:AUTOR – <meta name="author">,
@@ -115,6 +116,83 @@ def html_wydanie(w):
     return "\n".join(s)
 
 
+# ---------- archiwum wersji ----------
+REPO_WYD = "https://github.com/dawidrosa026-lang/bursztyn-os/releases"
+
+
+def wkl(v):
+    return tuple(int(x) if x.isdigit() else 0 for x in re.split(r"[.\-]", str(v)))
+
+
+def rozmiar_gb(b):
+    return f"{b / 1e9:.2f}".replace(".", ",") + " GB"
+
+
+def migawka(wydania, manifest):
+    """Zapis aktualnego (najnowszego gotowego) wydania na potrzeby archiwum."""
+    got = [w for w in wydania if w.get("status") == "gotowe" and w.get("wersja")]
+    if not got:
+        return None
+    wer = max((w["wersja"] for w in got), key=wkl)
+    kryptonim = ""
+    if manifest.get("wersja") == wer:
+        m = re.search(r"„([^”]+)”", manifest.get("nazwa", ""))
+        kryptonim = m.group(1) if m else ""
+    pliki = []
+    for w in got:
+        if w["wersja"] != wer:
+            continue
+        b = re.search(r"\(([\d  ]+)\s*bajt", w.get("rozmiar", ""))
+        pliki.append({"edycja": w.get("edycja", ""), "plik": w.get("plik", ""),
+                      "rozmiar_bajtow": int(re.sub(r"\D", "", b.group(1))) if b else 0,
+                      "url": w.get("url", ""), "url_sha256": w.get("url_sha256", "")})
+    dane = [w.get("data") for w in got if w["wersja"] == wer and w.get("data")]
+    return {"wersja": wer, "nazwa": f"Bursztyn OS {wer}", "kryptonim": kryptonim,
+            "data": dane[0] if dane else "", "url": f"{REPO_WYD}/tag/v{wer}", "pliki": pliki}
+
+
+def aktualizuj_archiwum(wydania, manifest):
+    """Gdy pojawia się nowsze gotowe wydanie, poprzednie „bieżące” trafia do archiwum (automatycznie)."""
+    sciezka = KAT / "data/archiwum.json"
+    ar = wczytaj("data/archiwum.json")
+    nowe = migawka(wydania, manifest)
+    if nowe:
+        stare = ar.get("biezace")
+        if stare and stare.get("wersja") and wkl(nowe["wersja"]) > wkl(stare["wersja"]):
+            if all(x.get("wersja") != stare["wersja"] for x in ar["wydania"]):
+                ar["wydania"].append(stare)
+                print(f"  archiwum: wersja {stare['wersja']} przeniesiona do archiwum")
+        if not stare or wkl(nowe["wersja"]) >= wkl(stare.get("wersja", "0")):
+            if stare and stare.get("wersja") == nowe["wersja"] and not nowe["kryptonim"]:
+                nowe["kryptonim"] = stare.get("kryptonim", "")
+            ar["biezace"] = nowe
+    ar["wydania"].sort(key=lambda x: wkl(x["wersja"]), reverse=True)
+    sciezka.write_text(json.dumps(ar, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return ar["wydania"]
+
+
+def html_archiwum(lista, aktualna):
+    s = ['<div class="sekcja-naglowek"><span class="etykieta">Archiwum</span><h2>Archiwum wersji</h2>',
+         f'<p>Aktualna wersja to <strong>{e(aktualna)}</strong> – to ją polecamy i to ona dostaje poprawki. '
+         'Starsze wydania są tu wyłącznie w celach archiwalnych: nie są już aktualizowane, więc nie instaluj ich na co dzień.</p></div>']
+    if not lista:
+        return "\n".join(s + ["<p>Archiwum jest na razie puste.</p>"])
+    s.append('<div class="siatka dwie archiwum-lista">')
+    for r in lista:
+        nazwa = r["nazwa"] + (f" „{r['kryptonim']}”" if r.get("kryptonim") else "")
+        s += [f'<article class="karta archiwum-wydanie" id="archiwum-{e(slug(r["wersja"]))}">',
+              f'<h3>{e(nazwa)}</h3>',
+              f'<p class="archiwum-data"><time datetime="{e(r["data"])}">{e(data_pl(r["data"]))}</time></p>',
+              '<ul class="archiwum-pliki">']
+        for f in r.get("pliki", []):
+            sha = f' · <a href="{e(f["url_sha256"])}">suma SHA-256</a>' if f.get("url_sha256") else ""
+            rozm = f' <span class="archiwum-rozmiar">({e(rozmiar_gb(f["rozmiar_bajtow"]))})</span>' if f.get("rozmiar_bajtow") else ""
+            s.append(f'<li><span class="archiwum-edycja">{e(f["edycja"])}</span> '
+                     f'<a href="{e(f["url"])}">⤓ {e(f["plik"])}</a>{rozm}{sha}</li>')
+        s += ["</ul>", f'<p class="archiwum-link"><a href="{e(r["url"])}">Strona wydania na GitHubie →</a></p>', "</article>"]
+    return "\n".join(s)
+
+
 # ---------- twórca ----------
 def html_autor(t):
     return f'<meta name="author" content="{e(t["imie"])}">'
@@ -217,6 +295,9 @@ def main():
     wstaw("aktualnosci.html", "WPISY", "\n".join(html_wpis(w, poziom="h2") for w in lista))
     wstaw("index.html", "NAJNOWSZE", "\n".join(html_wpis(w, skrot=True) for w in lista[:2]))
     wstaw("pobierz.html", "WYDANIA", "\n".join(html_wydanie(w) for w in wydania))
+    archiwum = aktualizuj_archiwum(wydania, wczytaj("manifest.json"))
+    aktualna = (wczytaj("data/archiwum.json").get("biezace") or {}).get("wersja", "")
+    wstaw("pobierz.html", "ARCHIWUM", html_archiwum(archiwum, aktualna))
     tw = strona.get("tworca")
     if tw:
         for plik in sorted(KAT.glob("*.html")):

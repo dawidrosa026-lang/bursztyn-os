@@ -1,0 +1,120 @@
+{
+  "_opis": "Archiwum starszych wydań. Lista „wydania” jest wyświetlana na pobierz.html (sekcja „Archiwum wersji”). Pole „biezace” to zapis aktualnego wydania: gdy w data/wydania.json pojawi się nowsza wersja, generuj.py sam przenosi je do archiwum.",
+  "wydania": [
+    {
+      "wersja": "1.3",
+      "nazwa": "Bursztyn OS 1.3",
+      "kryptonim": "Miodowy blask",
+      "data": "2026-10-25",
+      "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/tag/v1.3",
+      "pliki": [
+        {
+          "edycja": "Pełna",
+          "plik": "bursztyn-os-1.3-amd64.iso",
+          "rozmiar_bajtow": 1716240384,
+          "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.3/bursztyn-os-1.3-amd64.iso",
+          "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.3/bursztyn-os-1.3-amd64.iso.sha256"
+        },
+        {
+          "edycja": "Lite",
+          "plik": "bursztyn-os-lite-1.3-amd64.iso",
+          "rozmiar_bajtow": 952107008,
+          "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.3/bursztyn-os-lite-1.3-amd64.iso",
+          "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.3/bursztyn-os-lite-1.3-amd64.iso.sha256"
+        }
+      ]
+    },
+    {
+      "wersja": "1.2",
+      "nazwa": "Bursztyn OS 1.2",
+      "kryptonim": "Bursztynowy świt",
+      "data": "2026-10-21",
+      "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/tag/v1.2",
+      "pliki": [
+        {
+          "edycja": "Pełna",
+          "plik": "bursztyn-os-1.2-amd64.iso",
+          "rozmiar_bajtow": 1716240384,
+          "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.2/bursztyn-os-1.2-amd64.iso",
+          "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.2/bursztyn-os-1.2-amd64.iso.sha256"
+        },
+        {
+          "edycja": "Lite",
+          "plik": "bursztyn-os-lite-1.2-amd64.iso",
+          "rozmiar_bajtow": 955252736,
+          "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.2/bursztyn-os-lite-1.2-amd64.iso",
+          "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.2/bursztyn-os-lite-1.2-amd64.iso.sha256"
+        }
+      ]
+    },
+    {
+      "wersja": "1.1",
+      "nazwa": "Bursztyn OS 1.1",
+      "kryptonim": "Złota iskra",
+      "data": "2026-10-19",
+      "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/tag/v1.1",
+      "pliki": [
+        {
+          "edycja": "Pełna",
+          "plik": "bursztyn-os-1.1-amd64.iso",
+          "rozmiar_bajtow": 1823358976,
+          "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.1/bursztyn-os-1.1-amd64.iso",
+          "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.1/bursztyn-os-1.1-amd64.iso.sha256"
+        },
+        {
+          "edycja": "Lite",
+          "plik": "bursztyn-os-lite-1.1-amd64.iso",
+          "rozmiar_bajtow": 1059061760,
+          "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.1/bursztyn-os-lite-1.1-amd64.iso",
+          "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.1/bursztyn-os-lite-1.1-amd64.iso.sha256"
+        }
+      ]
+    },
+    {
+      "wersja": "1.0",
+      "nazwa": "Bursztyn OS 1.0",
+      "kryptonim": "Pierwsza kropla",
+      "data": "2026-10-19",
+      "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/tag/v1.0",
+      "pliki": [
+        {
+          "edycja": "Pełna",
+          "plik": "bursztyn-os-1.0-amd64.iso",
+          "rozmiar_bajtow": 2132803584,
+          "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.0/bursztyn-os-1.0-amd64.iso",
+          "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.0/bursztyn-os-1.0-amd64.iso.sha256"
+        },
+        {
+          "edycja": "Lite",
+          "plik": "bursztyn-os-lite-1.0-amd64.iso",
+          "rozmiar_bajtow": 1059061760,
+          "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.0/bursztyn-os-lite-1.0-amd64.iso",
+          "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.0/bursztyn-os-lite-1.0-amd64.iso.sha256"
+        }
+      ]
+    }
+  ],
+  "biezace": {
+    "wersja": "1.4",
+    "nazwa": "Bursztyn OS 1.4",
+    "kryptonim": "Bursztynowy most",
+    "data": "2026-10-29",
+    "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/tag/v1.4",
+    "pliki": [
+      {
+        "edycja": "Pełna",
+        "plik": "bursztyn-os-1.4-amd64.iso",
+        "rozmiar_bajtow": 1716240384,
+        "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.4/bursztyn-os-1.4-amd64.iso",
+        "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.4/bursztyn-os-1.4-amd64.iso.sha256"
+      },
+      {
+        "edycja": "Lite",
+        "plik": "bursztyn-os-lite-1.4-amd64.iso",
+        "rozmiar_bajtow": 1013972992,
+        "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.4/bursztyn-os-lite-1.4-amd64.iso",
+        "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.4/bursztyn-os-lite-1.4-amd64.iso.sha256"
+      }
+    ]
+  }
+}
