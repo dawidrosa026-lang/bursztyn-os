@@ -212,3 +212,12 @@ details.karta>div p:last-child{margin-bottom:0}
 .archiwum-edycja{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:2px 9px;border-radius:999px;background:rgba(245,166,35,.13);color:var(--jasny);border:1px solid rgba(245,166,35,.35);margin-right:6px}
 .archiwum-rozmiar{color:var(--przygaszony);font-size:.88rem}
 .archiwum-link{margin:auto 0 0;padding-top:4px}
+
+/* pytania i odpowiedzi pod archiwum */
+.archiwum-faq{max-width:860px;margin:40px auto 0}
+.archiwum-faq h3{text-align:center;font-size:1.4rem;color:var(--jasny);margin:0 0 16px}
+.archiwum-faq-lista{display:grid;gap:12px}
+.archiwum-faq details.karta>div p{margin:0 0 10px}
+.archiwum-faq details.karta>div pre{margin:0 0 12px;overflow-x:auto}
+.archiwum-wersje{margin:0;padding-left:1.2em;display:grid;gap:6px}
+.archiwum-wersje strong{color:var(--jasny)}

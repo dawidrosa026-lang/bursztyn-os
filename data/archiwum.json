@@ -1,5 +1,5 @@
 {
-  "_opis": "Archiwum starszych wydań. Lista „wydania” jest wyświetlana na pobierz.html (sekcja „Archiwum wersji”). Pole „biezace” to zapis aktualnego wydania: gdy w data/wydania.json pojawi się nowsza wersja, generuj.py sam przenosi je do archiwum.",
+  "_opis": "Archiwum starszych wydań. Lista „wydania” jest wyświetlana na pobierz.html (sekcja „Archiwum wersji”). Pole „biezace” to zapis aktualnego wydania: gdy w data/wydania.json pojawi się nowsza wersja, generuj.py sam przenosi je do archiwum. Pole „pytania” to treść „Pytań i odpowiedzi” pod archiwum (HTML pisany ręcznie; {AKTUALNA} zamienia się na aktualną wersję); „w_skrocie” to jednozdaniowy opis wersji do pytania „Czym różnią się wersje?” – przy nowym wydaniu uzupełnij je w polu „biezace”.",
   "wydania": [
     {
       "wersja": "1.3",
@@ -22,7 +22,8 @@
           "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.3/bursztyn-os-lite-1.3-amd64.iso",
           "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.3/bursztyn-os-lite-1.3-amd64.iso.sha256"
         }
-      ]
+      ],
+      "w_skrocie": "nowe Menu Bursztyn (wyszukiwarka, ulubione i ostatnio używane programy, polskie kategorie, przyciski zasilania, własna ikona w docku)."
     },
     {
       "wersja": "1.2",
@@ -45,7 +46,8 @@
           "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.2/bursztyn-os-lite-1.2-amd64.iso",
           "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.2/bursztyn-os-lite-1.2-amd64.iso.sha256"
         }
-      ]
+      ],
+      "w_skrocie": "kreator „Konfiguracja Bursztyn OS” przy pierwszym uruchomieniu, działające od razu aktualizacje po instalacji, polskie foldery i menu oraz poprawki instalatora."
     },
     {
       "wersja": "1.1",
@@ -68,7 +70,8 @@
           "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.1/bursztyn-os-lite-1.1-amd64.iso",
           "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.1/bursztyn-os-lite-1.1-amd64.iso.sha256"
         }
-      ]
+      ],
+      "w_skrocie": "pierwsza aktualizacja: powiadomienia o nowych wersjach działają od razu po instalacji, nowsze poprawki bezpieczeństwa Debiana 13, polskie litery w menu startowym i mniejsze obrazy ISO."
     },
     {
       "wersja": "1.0",
@@ -91,7 +94,8 @@
           "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.0/bursztyn-os-lite-1.0-amd64.iso",
           "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.0/bursztyn-os-lite-1.0-amd64.iso.sha256"
         }
-      ]
+      ],
+      "w_skrocie": "pierwsze wydanie: pulpit na bazie Debiana 13 z aplikacjami KDE, dock z Menu u dołu, górny pasek, ciemny motyw Breeze, polski interfejs i pakiet tapet."
     }
   ],
   "biezace": {
@@ -115,6 +119,62 @@
         "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.4/bursztyn-os-lite-1.4-amd64.iso",
         "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.4/bursztyn-os-lite-1.4-amd64.iso.sha256"
       }
-    ]
-  }
+    ],
+    "w_skrocie": "KDE Connect (telefon z Androidem) w obu edycjach, nowy zestaw dźwięków systemowych, menu startowe GRUB po polsku i ustawienia zasilania ekranu."
+  },
+  "pytania": [
+    {
+      "pytanie": "Czy starsze wersje dostają aktualizacje?",
+      "odpowiedz": [
+        "Poprawki bezpieczeństwa i aktualizacje pakietów Debiana 13 nadal przychodzą z oficjalnych repozytoriów Debiana – także w starszych wydaniach Bursztyn OS, zwykłymi aktualizacjami (Centrum aplikacji lub <code>apt</code>).",
+        "Nie dostają natomiast zmian i poprawek samego Bursztyn OS (wygląd, Menu Bursztyn, KDE Connect, dźwięki, kreatory i narzędzia projektu). Te zmiany trafiają tylko do nowych obrazów ISO – w starszej wersji ich nie będzie. Dlatego na co dzień polecamy najnowszą wersję: <strong>{AKTUALNA}</strong>."
+      ]
+    },
+    {
+      "pytanie": "Czy starsza wersja powiadomi mnie o nowym wydaniu?",
+      "odpowiedz": [
+        "Tak, jeśli ma działające sprawdzanie wersji. System sprawdza plik <a href=\"manifest.json\">manifest.json</a> z tej strony (raz na dobę) i gdy znajdzie nowszą wersję, pokazuje na górnym pasku „★ Nowa wersja”, a okno „Co nowego” wyświetla listę zmian. W wersji 1.0 powiadomienia o nowych wersjach nie działały jeszcze od razu po instalacji – poprawiono to w 1.1."
+      ]
+    },
+    {
+      "pytanie": "Jak przejść ze starszej wersji na {AKTUALNA}?",
+      "odpowiedz": [
+        "Bursztyn OS {AKTUALNA} nie instaluje się przez Centrum aplikacji ani <code>apt</code> – trzeba <strong>zainstalować go z obrazu ISO</strong>. Pobierz ISO na stronie <a href=\"#wydania\">Pobierz</a>, <a href=\"#sprawdz\">sprawdź sumę SHA-256</a>, <a href=\"#pendrive\">nagraj obraz na pendrive</a> i uruchom instalator.",
+        "Przed instalacją zrób kopię ważnych danych. Do czasu przejścia na nowszą wersję Twój obecny system nadal dostaje poprawki bezpieczeństwa Debiana (zwykłymi aktualizacjami)."
+      ]
+    },
+    {
+      "pytanie": "Którą wersję i edycję wybrać?",
+      "odpowiedz": [
+        "Najnowszą: <strong>{AKTUALNA}</strong>. Z edycji wybierz <strong>pełną</strong>, jeśli komputer ma co najmniej 4 GB RAM – dostajesz aplikacje KDE i przeglądarkę Google Chrome. <strong>Lite</strong> jest dla słabszych komputerów z 1–2 GB RAM: używa lekkich aplikacji GTK i Firefoksa ESR. Obie edycje są dostępne dla każdej wersji w archiwum."
+      ]
+    },
+    {
+      "pytanie": "Po co jest archiwum wersji?",
+      "odpowiedz": [
+        "Archiwum zbiera wcześniejsze wydania Bursztyn OS w jednym miejscu: z datą, nazwą i bezpośrednimi linkami do plików ISO oraz sum SHA-256 na GitHub Releases. Przyda się, gdy chcesz zobaczyć, jak system wyglądał wcześniej, porównać wydania albo wrócić do konkretnej wersji. Są to wydania archiwalne – nie rozwijamy ich dalej."
+      ]
+    },
+    {
+      "pytanie": "Czym różnią się poszczególne wersje?",
+      "rodzaj": "wersje",
+      "odpowiedz": [
+        "W skrócie (pełne listy zmian są w <a href=\"aktualnosci.html\">Aktualnościach</a> i na stronach wydań na GitHubie):"
+      ]
+    },
+    {
+      "pytanie": "Jak sprawdzić sumę SHA-256 pobranego pliku?",
+      "odpowiedz": [
+        "Przy każdym pliku ISO jest plik <code>.sha256</code> z poprawną sumą (linki w kartach powyżej). Porównaj ją z sumą policzoną z pobranego pliku (w miejsce <code>PLIK.iso</code> wpisz nazwę swojego pliku).",
+        "<strong>Linux</strong> – w katalogu z plikami:",
+        "<pre><code>sha256sum PLIK.iso</code></pre>",
+        "albo od razu z plikiem sumy:",
+        "<pre><code>sha256sum -c PLIK.iso.sha256</code></pre>",
+        "<strong>Windows</strong> (PowerShell lub Wiersz polecenia):",
+        "<pre><code>Get-FileHash .\\PLIK.iso -Algorithm SHA256</code></pre>",
+        "<pre><code>certutil -hashfile PLIK.iso SHA256</code></pre>",
+        "Jeśli sumy się różnią, pobierz plik ponownie. Więcej w sekcji <a href=\"#sprawdz\">Sprawdź sumę kontrolną SHA-256</a>."
+      ]
+    }
+  ]
 }

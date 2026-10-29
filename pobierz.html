@@ -185,6 +185,49 @@ sudo dd if=bursztyn-os-1.4-amd64.iso \
 </ul>
 <p class="archiwum-link"><a href="https://github.com/dawidrosa026-lang/bursztyn-os/releases/tag/v1.0">Strona wydania na GitHubie →</a></p>
 </article>
+<div class="archiwum-faq">
+<h3>Pytania i odpowiedzi</h3>
+<div class="archiwum-faq-lista">
+<details class="karta"><summary>Czy starsze wersje dostają aktualizacje?</summary><div>
+<p>Poprawki bezpieczeństwa i aktualizacje pakietów Debiana 13 nadal przychodzą z oficjalnych repozytoriów Debiana – także w starszych wydaniach Bursztyn OS, zwykłymi aktualizacjami (Centrum aplikacji lub <code>apt</code>).</p>
+<p>Nie dostają natomiast zmian i poprawek samego Bursztyn OS (wygląd, Menu Bursztyn, KDE Connect, dźwięki, kreatory i narzędzia projektu). Te zmiany trafiają tylko do nowych obrazów ISO – w starszej wersji ich nie będzie. Dlatego na co dzień polecamy najnowszą wersję: <strong>1.4</strong>.</p>
+</div></details>
+<details class="karta"><summary>Czy starsza wersja powiadomi mnie o nowym wydaniu?</summary><div>
+<p>Tak, jeśli ma działające sprawdzanie wersji. System sprawdza plik <a href="manifest.json">manifest.json</a> z tej strony (raz na dobę) i gdy znajdzie nowszą wersję, pokazuje na górnym pasku „★ Nowa wersja”, a okno „Co nowego” wyświetla listę zmian. W wersji 1.0 powiadomienia o nowych wersjach nie działały jeszcze od razu po instalacji – poprawiono to w 1.1.</p>
+</div></details>
+<details class="karta"><summary>Jak przejść ze starszej wersji na 1.4?</summary><div>
+<p>Bursztyn OS 1.4 nie instaluje się przez Centrum aplikacji ani <code>apt</code> – trzeba <strong>zainstalować go z obrazu ISO</strong>. Pobierz ISO na stronie <a href="#wydania">Pobierz</a>, <a href="#sprawdz">sprawdź sumę SHA-256</a>, <a href="#pendrive">nagraj obraz na pendrive</a> i uruchom instalator.</p>
+<p>Przed instalacją zrób kopię ważnych danych. Do czasu przejścia na nowszą wersję Twój obecny system nadal dostaje poprawki bezpieczeństwa Debiana (zwykłymi aktualizacjami).</p>
+</div></details>
+<details class="karta"><summary>Którą wersję i edycję wybrać?</summary><div>
+<p>Najnowszą: <strong>1.4</strong>. Z edycji wybierz <strong>pełną</strong>, jeśli komputer ma co najmniej 4 GB RAM – dostajesz aplikacje KDE i przeglądarkę Google Chrome. <strong>Lite</strong> jest dla słabszych komputerów z 1–2 GB RAM: używa lekkich aplikacji GTK i Firefoksa ESR. Obie edycje są dostępne dla każdej wersji w archiwum.</p>
+</div></details>
+<details class="karta"><summary>Po co jest archiwum wersji?</summary><div>
+<p>Archiwum zbiera wcześniejsze wydania Bursztyn OS w jednym miejscu: z datą, nazwą i bezpośrednimi linkami do plików ISO oraz sum SHA-256 na GitHub Releases. Przyda się, gdy chcesz zobaczyć, jak system wyglądał wcześniej, porównać wydania albo wrócić do konkretnej wersji. Są to wydania archiwalne – nie rozwijamy ich dalej.</p>
+</div></details>
+<details class="karta"><summary>Czym różnią się poszczególne wersje?</summary><div>
+<p>W skrócie (pełne listy zmian są w <a href="aktualnosci.html">Aktualnościach</a> i na stronach wydań na GitHubie):</p>
+<ul class="archiwum-wersje">
+<li><strong>1.4 „Bursztynowy most”</strong> (29 października 2026) – KDE Connect (telefon z Androidem) w obu edycjach, nowy zestaw dźwięków systemowych, menu startowe GRUB po polsku i ustawienia zasilania ekranu.</li>
+<li><strong>1.3 „Miodowy blask”</strong> (25 października 2026) – nowe Menu Bursztyn (wyszukiwarka, ulubione i ostatnio używane programy, polskie kategorie, przyciski zasilania, własna ikona w docku).</li>
+<li><strong>1.2 „Bursztynowy świt”</strong> (21 października 2026) – kreator „Konfiguracja Bursztyn OS” przy pierwszym uruchomieniu, działające od razu aktualizacje po instalacji, polskie foldery i menu oraz poprawki instalatora.</li>
+<li><strong>1.1 „Złota iskra”</strong> (19 października 2026) – pierwsza aktualizacja: powiadomienia o nowych wersjach działają od razu po instalacji, nowsze poprawki bezpieczeństwa Debiana 13, polskie litery w menu startowym i mniejsze obrazy ISO.</li>
+<li><strong>1.0 „Pierwsza kropla”</strong> (19 października 2026) – pierwsze wydanie: pulpit na bazie Debiana 13 z aplikacjami KDE, dock z Menu u dołu, górny pasek, ciemny motyw Breeze, polski interfejs i pakiet tapet.</li>
+</ul>
+</div></details>
+<details class="karta"><summary>Jak sprawdzić sumę SHA-256 pobranego pliku?</summary><div>
+<p>Przy każdym pliku ISO jest plik <code>.sha256</code> z poprawną sumą (linki w kartach powyżej). Porównaj ją z sumą policzoną z pobranego pliku (w miejsce <code>PLIK.iso</code> wpisz nazwę swojego pliku).</p>
+<strong>Linux</strong> – w katalogu z plikami:
+<pre><code>sha256sum PLIK.iso</code></pre>
+<p>albo od razu z plikiem sumy:</p>
+<pre><code>sha256sum -c PLIK.iso.sha256</code></pre>
+<strong>Windows</strong> (PowerShell lub Wiersz polecenia):
+<pre><code>Get-FileHash .\PLIK.iso -Algorithm SHA256</code></pre>
+<pre><code>certutil -hashfile PLIK.iso SHA256</code></pre>
+<p>Jeśli sumy się różnią, pobierz plik ponownie. Więcej w sekcji <a href="#sprawdz">Sprawdź sumę kontrolną SHA-256</a>.</p>
+</div></details>
+</div>
+</div>
 <!-- /GEN:ARCHIWUM -->
   </div>
 </section>

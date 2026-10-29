@@ -6,7 +6,7 @@ Pisze:  feed.xml (RSS 2.0) oraz statyczne fragmenty HTML między znacznikami
         <!-- GEN:NAZWA --> ... <!-- /GEN:NAZWA --> w plikach:
           index.html        (GEN:NAJNOWSZE – dwa najnowsze ogłoszenia)
           pobierz.html      (GEN:WYDANIA   – karty wydań)
-          pobierz.html      (GEN:ARCHIWUM  – „Archiwum wersji”: starsze wydania)
+          pobierz.html      (GEN:ARCHIWUM  – „Archiwum wersji”: starsze wydania + „Pytania i odpowiedzi”)
           aktualnosci.html  (GEN:WPISY     – wszystkie ogłoszenia)
           o-projekcie.html  (GEN:TWORCA    – sekcje „Twórca” i „Współtwórca”)
           wszystkie *.html  (GEN:AUTOR – <meta name="author">,
@@ -163,12 +163,35 @@ def aktualizuj_archiwum(wydania, manifest):
                 ar["wydania"].append(stare)
                 print(f"  archiwum: wersja {stare['wersja']} przeniesiona do archiwum")
         if not stare or wkl(nowe["wersja"]) >= wkl(stare.get("wersja", "0")):
-            if stare and stare.get("wersja") == nowe["wersja"] and not nowe["kryptonim"]:
-                nowe["kryptonim"] = stare.get("kryptonim", "")
+            if stare and stare.get("wersja") == nowe["wersja"]:
+                for k in ("kryptonim", "w_skrocie"):
+                    if not nowe.get(k):
+                        nowe[k] = stare.get(k, "")
             ar["biezace"] = nowe
     ar["wydania"].sort(key=lambda x: wkl(x["wersja"]), reverse=True)
     sciezka.write_text(json.dumps(ar, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return ar["wydania"]
+
+
+def html_pytania(ar, aktualna):
+    """„Pytania i odpowiedzi” pod archiwum – <details> jak FAQ w o-projekcie.html. HTML odpowiedzi pochodzi z data/archiwum.json."""
+    zam = lambda t: t.replace("{AKTUALNA}", e(aktualna))
+    wszystkie = sorted(ar["wydania"] + ([ar["biezace"]] if ar.get("biezace") else []), key=lambda x: wkl(x["wersja"]), reverse=True)
+    s = ['<div class="archiwum-faq">', '<h3>Pytania i odpowiedzi</h3>', '<div class="archiwum-faq-lista">']
+    for q in ar.get("pytania", []):
+        s.append(f'<details class="karta"><summary>{zam(e(q["pytanie"]))}</summary><div>')
+        for a in q.get("odpowiedz", []):  # akapit zwykły → <p>; wpis zaczynający się od „<” (np. <pre>) wstawiany bez zmian
+            s.append(zam(a) if a.lstrip().startswith("<") else f"<p>{zam(a)}</p>")
+        if q.get("rodzaj") == "wersje":
+            s.append('<ul class="archiwum-wersje">')
+            for w in wszystkie:
+                kr = f' „{e(w["kryptonim"])}”' if w.get("kryptonim") else ""
+                opis = f' – {e(w["w_skrocie"])}' if w.get("w_skrocie") else ""
+                s.append(f'<li><strong>{e(w["wersja"])}{kr}</strong> ({e(data_pl(w["data"]))}){opis}</li>')
+            s.append("</ul>")
+        s.append("</div></details>")
+    s += ["</div>", "</div>"]
+    return "\n".join(s)
 
 
 def html_archiwum(lista, aktualna):
@@ -297,7 +320,7 @@ def main():
     wstaw("pobierz.html", "WYDANIA", "\n".join(html_wydanie(w) for w in wydania))
     archiwum = aktualizuj_archiwum(wydania, wczytaj("manifest.json"))
     aktualna = (wczytaj("data/archiwum.json").get("biezace") or {}).get("wersja", "")
-    wstaw("pobierz.html", "ARCHIWUM", html_archiwum(archiwum, aktualna))
+    wstaw("pobierz.html", "ARCHIWUM", html_archiwum(archiwum, aktualna) + "\n" + html_pytania(wczytaj("data/archiwum.json"), aktualna))
     tw = strona.get("tworca")
     if tw:
         for plik in sorted(KAT.glob("*.html")):
