@@ -1,18 +1,30 @@
 {
-  "wersja": "1.3",
-  "data": "2026-10-25",
-  "nazwa": "Bursztyn OS 1.3 „Miodowy blask”",
+  "wersja": "1.4",
+  "data": "2026-10-29",
+  "nazwa": "Bursztyn OS 1.4 „Bursztynowy most”",
   "zmiany": [
-    "Nowe Menu Bursztyn zamiast starego okna programów: bursztynowy, zaokrąglony panel nad dockiem z powitaniem i wyszukiwarką",
-    "Ulubione programy (prawy przycisk myszy → Dodaj do ulubionych) i lista ostatnio używanych na stronie startowej menu",
-    "Wyszukiwanie od razu po otwarciu menu, także bez polskich znaków („wyglad” znajdzie „Wygląd”); Enter uruchamia pierwszy wynik",
-    "Uporządkowane polskie kategorie programów (Internet, Biuro, Grafika, Multimedia, Gry, Narzędzia, System, Ustawienia…), bez zbędnych i zdublowanych pozycji; edytory tekstu (Kate, Mousepad) w kategorii Biuro",
-    "Przyciski Zablokuj, Wyloguj, Uruchom ponownie i Wyłącz w menu – z potwierdzeniem przed wyłączeniem",
-    "Własna ikona menu w docku, inna niż ikona ekranu powitalnego",
-    "Najnowsze poprawki bezpieczeństwa Debiana 13"
+    "KDE Connect – połącz telefon z Androidem z komputerem: powiadomienia z telefonu na pulpicie, przesyłanie plików i linków, wspólny schowek, SMS-y z komputera, sterowanie muzyką i filmami oraz telefon jako pilot (na telefonie wystarczy darmowa aplikacja KDE Connect z Google Play lub F-Droid)",
+    "KDE Connect w obu edycjach, także w Lite: ikona w zasobniku na górnym pasku, nowy kafelek „Telefon” na ekranie powitalnym, wpisy w Menu Bursztyn (Internet) i na liście programów w kreatorze Konfiguracja",
+    "Nowe dźwięki systemowe: ciepły zestaw 25 dźwięków (marimba, kalimba i miękki pad) z nową, trzysekundową melodią logowania „Bursztyn”; własne dźwięki mają też powiadomienia KDE Connect (telefon połączony i rozłączony, połączenie, ping), zrzuty ekranu i zdarzenia systemu",
+    "Nowy kafelek „Konfiguracja” na ekranie powitalnym – kreator można w każdej chwili uruchomić ponownie",
+    "Menu startowe GRUB w pełni po polsku: „Ustawienia oprogramowania UEFI”, polski pasek pomocy i odliczanie, „Wczytywanie Linuksa…” przy starcie zainstalowanego systemu",
+    "Połączenie sieciowe nazywa się „Połączenie przewodowe 1” zamiast „Wired connection 1” – także po instalacji z edycji Lite",
+    "Edycja Lite: komunikaty sieci (NetworkManager, nmcli) po polsku",
+    "W trybie na żywo (live) ekran już się nie wygasza ani nie usypia",
+    "Ustawienia zasilania ekranu po instalacji: wygaszanie po 10 minutach, wyłączenie monitora po 15 minutach – do zmiany w /etc/bursztyn/ekran.conf lub ~/.config/bursztyn/ekran.conf",
+    "Instalator edycji Lite pokazuje aktualny baner Bursztyn OS zamiast starego napisu „1.1”",
+    "Gdy włączysz zaporę ufw, porty KDE Connect otwierają się automatycznie"
   ],
   "pobierz": "https://dawidrosa026-lang.github.io/bursztyn-os/pobierz.html",
   "historia": [
+    {
+      "wersja": "1.4",
+      "data": "2026-10-29",
+      "zmiany": [
+        "KDE Connect – telefon z Androidem połączony z komputerem (powiadomienia, pliki, schowek, SMS-y, sterowanie multimediami) w obu edycjach, menu startowe GRUB i nazwy połączeń sieciowych po polsku, ekran bez wygaszania w trybie na żywo, ustawienia zasilania ekranu po instalacji i poprawiony baner instalatora Lite.",
+        "Nowe dźwięki systemowe: ciepły zestaw 25 dźwięków (marimba, kalimba, miękki pad) z nową melodią logowania, dźwięki telefonu KDE Connect i zrzutów ekranu."
+      ]
+    },
     {
       "wersja": "1.3",
       "data": "2026-10-25",

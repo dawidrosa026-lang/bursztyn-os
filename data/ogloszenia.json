@@ -2,6 +2,21 @@
   "_opis": "Ręcznie pisane ogłoszenia. Wpisy o wydaniach dochodzą automatycznie z manifest.json (pole 'historia'). Po zmianie uruchom: python3 generuj.py",
   "wpisy": [
     {
+      "id": "bursztyn-os-1-4-bursztynowy-most",
+      "tytul": "Bursztyn OS 1.4 „Bursztynowy most” już jest!",
+      "data": "2026-10-29",
+      "tresc": [
+        "Wydaliśmy Bursztyn OS 1.4 „Bursztynowy most” – w pełnej edycji i w edycji Lite.",
+        "Największa nowość to KDE Connect: most między telefonem z Androidem a komputerem. Przez tę samą sieć Wi-Fi, bez kabla i bez zakładania konta, prześlesz pliki w obie strony, zobaczysz powiadomienia z telefonu na pulpicie, odpowiesz na SMS-y z klawiatury, skorzystasz ze wspólnego schowka, a telefon posłuży jako pilot do muzyki, filmów i prezentacji. KDE Connect znajdziesz na górnym pasku, na ekranie powitalnym (kafelek „Telefon”) i w Menu → Internet – w obu edycjach, także w Lite. Na telefon wystarczy darmowa aplikacja KDE Connect z Google Play lub F-Droid.",
+        "Do tego nowe dźwięki systemowe: ciepły zestaw 25 dźwięków – marimba, kalimba i miękki pad – z nową, trzysekundową melodią logowania „Bursztyn”. Własne dźwięki mają też telefon połączony z KDE Connect (połączenie i rozłączenie, powiadomienia) oraz zrzuty ekranu.",
+        "Poza tym: menu startowe GRUB w pełni po polsku, połączenie sieciowe nazywa się „Połączenie przewodowe 1”, a Lite mówi po polsku także w komunikatach sieci. W trybie na żywo ekran już się nie wygasza, a po instalacji wygasza się po 10 minutach (ustawienie w /etc/bursztyn/ekran.conf). Instalator Lite pokazuje właściwy baner Bursztyn OS, a na ekranie powitalnym jest nowy kafelek „Konfiguracja”.",
+        "Na stronie jest też piosenka projektu – „Bursztynowy kod”, ambientowy synthwave Dawida Rosy (stworzona w Suno). Posłuchasz jej w sekcji o projekcie: o-projekcie.html#piosenka.",
+        "Od tej wersji projekt ma też współtwórcę: asystenta AI slavko vinčić, który pomaga Dawidowi Rosie – twórcy i opiekunowi Bursztyn OS – przygotowywać wydania, obrazy ISO i stronę.",
+        "Na komputerach z wersją 1.3 pojawi się na górnym pasku „★ Nowa wersja” – KDE Connect i pozostałe nowości otrzymasz, instalując 1.4 z obrazu ISO."
+      ],
+      "link": "pobierz.html"
+    },
+    {
       "id": "kde-connect-wkrotce-w-1-4",
       "tytul": "Wkrótce w wersji 1.4: telefon z Androidem połączony z komputerem (KDE Connect)",
       "data": "2026-10-27",
