@@ -213,6 +213,7 @@ def html_archiwum(lista, aktualna):
             s.append(f'<li><span class="archiwum-edycja">{e(f["edycja"])}</span> '
                      f'<a href="{e(f["url"])}">⤓ {e(f["plik"])}</a>{rozm}{sha}</li>')
         s += ["</ul>", f'<p class="archiwum-link"><a href="{e(r["url"])}">Strona wydania na GitHubie →</a></p>', "</article>"]
+    s.append("</div>")
     return "\n".join(s)
 
 
