@@ -6,20 +6,20 @@
 
 **Polski remiks Debiana 13 w ciepłych, bursztynowych kolorach – po polsku od pierwszego uruchomienia.**
 
-![Wersja](https://img.shields.io/badge/wersja-1.4%20%E2%80%9EBursztynowy%20most%E2%80%9D-F5A623)
+![Wersja](https://img.shields.io/badge/wersja-1.5%20%E2%80%9EZ%C5%82ota%20godzina%E2%80%9D-F5A623)
 ![Baza](https://img.shields.io/badge/baza-Debian%2013%20(trixie)-A81D33)
 ![Architektura](https://img.shields.io/badge/architektura-amd64-555555)
 
-**Najnowsze wydanie: 1.4 „Bursztynowy most” – 29.10.2026**
+**Najnowsze wydanie: 1.5 „Złota godzina” – 6.11.2026**
 
 [🌐 Strona projektu](https://dawidrosa026-lang.github.io/bursztyn-os/) ·
-[⤓ Pobierz 1.4](https://github.com/dawidrosa026-lang/bursztyn-os/releases/tag/v1.4) ·
+[⤓ Pobierz 1.5](https://github.com/dawidrosa026-lang/bursztyn-os/releases/tag/v1.5) ·
 [📰 Aktualności](https://dawidrosa026-lang.github.io/bursztyn-os/aktualnosci.html) ·
 [❓ FAQ](https://dawidrosa026-lang.github.io/bursztyn-os/o-projekcie.html)
 
 **Twórca i opiekun projektu: [Dawid Rosa](https://github.com/dawidrosa026-lang)**
 
-<a href="img/zrzuty/pulpit.jpg"><img src="img/zrzuty/pulpit.jpg" alt="Pulpit Bursztyn OS 1.4: dock z Menu Bursztyn, górny pasek z zegarem i wskaźnikiem telefonu, bursztynowa tapeta" width="760"></a>
+<a href="img/zrzuty/pulpit.jpg"><img src="img/zrzuty/pulpit.jpg" alt="Pulpit Bursztyn OS: dock z Menu Bursztyn, górny pasek z zegarem i wskaźnikiem telefonu, bursztynowa tapeta" width="760"></a>
 
 </div>
 
@@ -49,11 +49,28 @@ Dostępne są dwie edycje:
 <div align="center">
 
 <a href="img/zrzuty/menu-bursztyn.jpg"><img src="img/zrzuty/menu-bursztyn.jpg" alt="Menu Bursztyn z kategorią Internet: Google Chrome i KDE Connect" width="410"></a>
-<a href="img/zrzuty/co-nowego.jpg"><img src="img/zrzuty/co-nowego.jpg" alt="Okno „Co nowego” w Bursztyn OS 1.4" width="410"></a>
+<a href="img/zrzuty/co-nowego.jpg"><img src="img/zrzuty/co-nowego.jpg" alt="Okno „Co nowego” w Bursztyn OS 1.5" width="410"></a>
 
 </div>
 
-### 📱 Nowość w 1.4: KDE Connect – telefon z Androidem połączony z komputerem
+### ✨ Nowość w 1.5 „Złota godzina”
+
+- **Nowy instalator (edycja Pełna)** – krok „Dysk – jak to działa” z prostym opisem po polsku, wybór pamięci wymiany (bez wymiany, mała wymiana, hibernacja albo plik wymiany), ext4 jako domyślny system plików (do wyboru btrfs i xfs), partycja EFI 300 MiB.
+- **Dual boot z Windowsem** – opcja „Zainstaluj obok”, a GRUB (z włączonym `os-prober`) sam pokazuje inne zainstalowane systemy. Sprawdzone na **symulowanym dysku z Windowsem** w maszynie wirtualnej (UEFI i BIOS; dane na partycji NTFS nienaruszone). Nie testowano prawdziwego Windowsa, Secure Boot ani BitLockera – przed instalacją obok Windowsa zrób kopię ważnych danych.
+- **O systemie** – okno z wersją, edycją, jądrem, procesorem, RAM-em i dyskiem oraz przyciskiem „Kopiuj informacje” (do zgłoszeń błędów); współtwórca wymieniony obok twórcy.
+- **Tryb nocny** – cieplejsze barwy ekranu wieczorem (automatycznie, zawsze albo wyłączony), przycisk ☾ na górnym pasku.
+- **Nowe tapety** – sześć tapet 2560×1440 i przeglądarka tapet „Tapety”.
+- **Centrum aktualizacji** – lista aktualizacji programów, „Sprawdź teraz”, „Zainstaluj wszystkie” i sprawdzanie nowej wersji Bursztyn OS.
+- **Sklep z aplikacjami** – ponad 40 wyselekcjonowanych programów po polsku z wyszukiwarką; tryb „Wszystkie pakiety” przeszukuje całe repozytorium Debiana.
+- **Ekran telefonu (scrcpy)** – podgląd i sterowanie telefonem z Androidem (USB lub Wi-Fi); scrcpy pochodzi z `trixie-backports` (włączone z niskim priorytetem – nic nie instaluje się stamtąd samo).
+- **Bateria w laptopie** – wskaźnik na górnym pasku oraz dźwięki podłączenia/odłączenia ładowarki i ostrzeżenia o niskim poziomie baterii; w Lite dźwięk migawki przy zrzucie ekranu.
+
+<p align="center">
+<a href="img/zrzuty/o-systemie.jpg"><img src="img/zrzuty/o-systemie.jpg" alt="Okno „O systemie” w Bursztyn OS 1.5" width="410"></a>
+<a href="img/zrzuty/sklep.jpg"><img src="img/zrzuty/sklep.jpg" alt="Sklep z aplikacjami w Bursztyn OS 1.5" width="410"></a>
+</p>
+
+### 📱 KDE Connect (od 1.4) – telefon z Androidem połączony z komputerem
 
 **KDE Connect** łączy telefon z Androidem z komputerem przez tę samą sieć Wi-Fi – bez kabla i bez zakładania konta.
 Na telefonie wystarczy darmowa aplikacja KDE Connect (Google Play lub F-Droid); po stronie komputera nic nie instalujesz.
@@ -68,18 +85,18 @@ KDE Connect jest w **obu edycjach, także w Lite**: ikona w zasobniku na górnym
 powitalnym i wpis w Menu → Internet.
 
 <p align="center">
-<a href="img/zrzuty/kde-connect.jpg"><img src="img/zrzuty/kde-connect.jpg" alt="Okno KDE Connect po polsku w Bursztyn OS 1.4" width="410"></a>
-<a href="img/zrzuty/ekran-powitalny.jpg"><img src="img/zrzuty/ekran-powitalny.jpg" alt="Ekran powitalny „Witaj w Bursztyn OS” w wersji 1.4 z kafelkami Telefon i Konfiguracja" width="410"></a>
+<a href="img/zrzuty/kde-connect.jpg"><img src="img/zrzuty/kde-connect.jpg" alt="Okno KDE Connect po polsku w Bursztyn OS" width="410"></a>
+<a href="img/zrzuty/ekran-powitalny.jpg"><img src="img/zrzuty/ekran-powitalny.jpg" alt="Ekran powitalny „Witaj w Bursztyn OS” w wersji 1.5 „Złota godzina”" width="410"></a>
 </p>
 
-## Pobieranie – wersja 1.4 „Bursztynowy most”
+## Pobieranie – wersja 1.5 „Złota godzina”
 
 | Edycja | Plik | Rozmiar | SHA-256 |
 |---|---|---|---|
-| **Pełna** (KDE, Google Chrome) | [`bursztyn-os-1.4-amd64.iso`](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.4/bursztyn-os-1.4-amd64.iso) ([.sha256](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.4/bursztyn-os-1.4-amd64.iso.sha256)) | ok. 1,72 GB (1 716 240 384 B) | `f0251fc503211ad14417f520f314c80c035b1c05b5f4c7480a27bdbfeae77294` |
-| **Lite** (lekkie aplikacje, Firefox ESR) | [`bursztyn-os-lite-1.4-amd64.iso`](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.4/bursztyn-os-lite-1.4-amd64.iso) ([.sha256](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.4/bursztyn-os-lite-1.4-amd64.iso.sha256)) | ok. 1,01 GB (1 013 972 992 B) | `dd3a2c2725c7ee0264e772fe2459e2b9659c2f57010e37933cd3bef56961dbd1` |
+| **Pełna** (KDE, Google Chrome) | [`bursztyn-os-1.5-amd64.iso`](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-1.5-amd64.iso) ([.sha256](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-1.5-amd64.iso.sha256)) | ok. 1,72 GB (1 724 678 144 B) | `409d959c463128bf746bf995f8aa0e875d153ccb68a7d5334b36e3b5e73a60f5` |
+| **Lite** (lekkie aplikacje, Firefox ESR) | [`bursztyn-os-lite-1.5-amd64.iso`](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-lite-1.5-amd64.iso) ([.sha256](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-lite-1.5-amd64.iso.sha256)) | ok. 1,04 GB (1 039 138 816 B) | `d76e09a488f062431c666515fd7ab49e8b7e7ba4a672896639376c9dc855fcda` |
 
-Strona wydania: <https://github.com/dawidrosa026-lang/bursztyn-os/releases/tag/v1.4>
+Strona wydania: <https://github.com/dawidrosa026-lang/bursztyn-os/releases/tag/v1.5>
 
 **Wymagania**
 
@@ -94,9 +111,9 @@ Do nagrania obrazu potrzebny jest pendrive o pojemności co najmniej 4 GB. Obraz
 ## Instalacja w skrócie
 
 1. **Sprawdź sumę SHA-256** pobranego pliku (musi być taka jak w tabeli powyżej):
-    - Linux: `sha256sum -c bursztyn-os-1.4-amd64.iso.sha256` (wynik „OK”) albo `sha256sum bursztyn-os-1.4-amd64.iso`,
-    - Windows: `Get-FileHash .\bursztyn-os-1.4-amd64.iso -Algorithm SHA256` (PowerShell),
-    - macOS: `shasum -a 256 bursztyn-os-1.4-amd64.iso`.
+    - Linux: `sha256sum -c bursztyn-os-1.5-amd64.iso.sha256` (wynik „OK”) albo `sha256sum bursztyn-os-1.5-amd64.iso`,
+    - Windows: `Get-FileHash .\bursztyn-os-1.5-amd64.iso -Algorithm SHA256` (PowerShell),
+    - macOS: `shasum -a 256 bursztyn-os-1.5-amd64.iso`.
 2. **Nagraj obraz na pendrive** (dane na pendrivie zostaną usunięte): [balenaEtcher](https://etcher.balena.io/) (Windows, macOS, Linux),
    Rufus (Windows, w trybie obrazu DD) albo `dd` w Linuksie. Szczegółowe kroki: [strona Pobierz](https://dawidrosa026-lang.github.io/bursztyn-os/pobierz.html).
 3. **Uruchom komputer z pendrive’a** (w razie potrzeby wybierz urządzenie startowe w menu BIOS/UEFI) i wybierz „Uruchom Bursztyn OS (na żywo)”,
@@ -104,17 +121,14 @@ Do nagrania obrazu potrzebny jest pendrive o pojemności co najmniej 4 GB. Obraz
 4. **Zainstaluj** – w edycji pełnej instalator **Calamares** (ikona „Zainstaluj Bursztyn OS” na pulpicie), w Lite instalator Debiana uruchamiany z menu startowego (po ponownym uruchomieniu z nośnika); przed instalacją zrób kopię ważnych danych.
    Po pierwszym uruchomieniu zainstalowanego systemu pojawi się kreator „Konfiguracja Bursztyn OS”.
 
-> **Aktualizacja z 1.3:** wersji 1.4 nie da się zainstalować przez Centrum aplikacji ani `apt` – zainstaluj 1.4 z obrazu ISO.
-> Na komputerach z 1.3 pojawi się „★ Nowa wersja” z listą zmian.
-
-## Plany
-
-- **Bursztyn OS 1.5 „Złota godzina” – premiera w piątek 6 listopada 2026** (nowy podział dysku z plikiem wymiany i hibernacją, instalacja obok Windowsa, wskaźnik baterii, Sklep z aplikacjami, Centrum aktualizacji, tryb nocny, scrcpy). Do tego dnia aktualna jest wersja 1.4.
+> **Aktualizacja z 1.4:** wersji 1.5 nie da się zainstalować przez Centrum aplikacji ani `apt` – zainstaluj 1.5 z obrazu ISO.
+> Na komputerach z 1.4 pojawi się „★ Nowa wersja” z listą zmian.
 
 ## Historia wersji
 
 | Wersja | Data | Co nowego |
 |---|---|---|
+| **1.5 „Złota godzina”** | 6.11.2026 | Nowy instalator (wybór pamięci wymiany, ext4, dual boot „Zainstaluj obok” z os-prober), okno „O systemie”, tryb nocny, nowe tapety, Centrum aktualizacji, Sklep z aplikacjami, ekran telefonu (scrcpy), wskaźnik baterii z dźwiękami ładowarki, dźwięk zrzutu w Lite |
 | **1.4 „Bursztynowy most”** | 29.10.2026 | KDE Connect w obu edycjach, nowy zestaw 25 dźwięków systemowych (z nową melodią logowania, dźwiękami telefonu i zrzutów ekranu), menu startowe GRUB i nazwy połączeń sieciowych po polsku, brak wygaszania ekranu w trybie na żywo, ustawienia zasilania ekranu po instalacji, poprawiony baner instalatora Lite |
 | **1.3 „Miodowy blask”** | 25.10.2026 | Nowe Menu Bursztyn: wyszukiwarka, ulubione i ostatnio używane programy, polskie kategorie, przyciski zasilania, własna ikona w docku; poprawki bezpieczeństwa Debiana 13 |
 | **1.2 „Bursztynowy świt”** | 21.10.2026 | Kreator „Konfiguracja Bursztyn OS”, działające od razu aktualizacje po instalacji, polskie foldery i menu, poprawki instalatora |
@@ -163,7 +177,7 @@ Dane twórcy są w `data/strona.json` (pole `tworca`); `generuj.py` wstawia je d
 - `js/main.js` dodatkowo czyta `data/wydania.json`, `manifest.json` i `data/ogloszenia.json` i odświeża te same sekcje (RSS i wersja bez JS wymagają generatora).
 - Ogłoszenia = wpisy z `data/ogloszenia.json` + po jednym wpisie „Wydanie: …” dla każdej pozycji `historia` w `manifest.json`.
 
-### Wydanie nowej wersji (np. 1.5)
+### Wydanie nowej wersji (np. 1.6)
 
 1. Opublikuj pliki ISO i `.sha256` w GitHub Releases (tag `vX.Y`; limit 2 GiB na plik, ISO nie trafiają do repozytorium – limit 100 MB).
 2. W `data/wydania.json` zaktualizuj karty wydań: `nazwa`, `wersja`, `data`, `plik`, `rozmiar`, `sha256`, `url`, `url_sha256`, `status: "gotowe"`.

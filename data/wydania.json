@@ -3,12 +3,12 @@
   "wydania": [
     {
       "id": "bursztyn-os",
-      "nazwa": "Bursztyn OS 1.4",
+      "nazwa": "Bursztyn OS 1.5",
       "edycja": "Pełna",
-      "wersja": "1.4",
-      "data": "2026-10-29",
+      "wersja": "1.5",
+      "data": "2026-11-06",
       "status": "gotowe",
-      "opis": "Pełny pulpit Bursztyn OS z aplikacjami KDE i przeglądarką Google Chrome. Dla większości współczesnych komputerów.",
+      "opis": "Pełny pulpit Bursztyn OS z aplikacjami KDE i przeglądarką Google Chrome – teraz z instalatorem z dual bootem, trybem nocnym i Sklepem z aplikacjami. Dla większości współczesnych komputerów.",
       "aplikacje": [
         "Dolphin",
         "Konsole",
@@ -19,27 +19,29 @@
         "Spectacle",
         "KCalc",
         "Google Chrome",
-        "Centrum aplikacji"
+        "Centrum aplikacji",
+        "Sklep z aplikacjami",
+        "scrcpy"
       ],
       "wymagania": [
         "Procesor 64-bitowy (amd64)",
         "4 GB RAM (zalecane)",
         "20 GB miejsca na dysku"
       ],
-      "plik": "bursztyn-os-1.4-amd64.iso",
-      "rozmiar": "ok. 1,72 GB (1 716 240 384 bajtów)",
-      "sha256": "f0251fc503211ad14417f520f314c80c035b1c05b5f4c7480a27bdbfeae77294",
-      "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.4/bursztyn-os-1.4-amd64.iso",
-      "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.4/bursztyn-os-1.4-amd64.iso.sha256"
+      "plik": "bursztyn-os-1.5-amd64.iso",
+      "rozmiar": "ok. 1,72 GB (1 724 678 144 bajtów)",
+      "sha256": "409d959c463128bf746bf995f8aa0e875d153ccb68a7d5334b36e3b5e73a60f5",
+      "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-1.5-amd64.iso",
+      "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-1.5-amd64.iso.sha256"
     },
     {
       "id": "bursztyn-os-lite",
-      "nazwa": "Bursztyn OS Lite 1.4",
+      "nazwa": "Bursztyn OS Lite 1.5",
       "edycja": "Lite",
-      "wersja": "1.4",
-      "data": "2026-10-29",
+      "wersja": "1.5",
+      "data": "2026-11-06",
       "status": "gotowe",
-      "opis": "Lżejsza edycja dla słabszych i starszych komputerów: lekkie aplikacje GTK i Firefox ESR, ten sam bursztynowy wygląd.",
+      "opis": "Lżejsza edycja dla słabszych i starszych komputerów: lekkie aplikacje GTK i Firefox ESR, ten sam bursztynowy wygląd, a od 1.5 także tryb nocny i Sklep z aplikacjami.",
       "aplikacje": [
         "Thunar",
         "Terminal XFCE",
@@ -50,18 +52,20 @@
         "Zrzuty ekranu",
         "Galculator",
         "Firefox ESR",
-        "Centrum aplikacji"
+        "Centrum aplikacji",
+        "Sklep z aplikacjami",
+        "scrcpy"
       ],
       "wymagania": [
         "Procesor 64-bitowy (amd64)",
         "1,5 GB RAM (min. 1 GB)",
         "10 GB miejsca na dysku"
       ],
-      "plik": "bursztyn-os-lite-1.4-amd64.iso",
-      "rozmiar": "ok. 1,01 GB (1 013 972 992 bajtów)",
-      "sha256": "dd3a2c2725c7ee0264e772fe2459e2b9659c2f57010e37933cd3bef56961dbd1",
-      "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.4/bursztyn-os-lite-1.4-amd64.iso",
-      "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.4/bursztyn-os-lite-1.4-amd64.iso.sha256"
+      "plik": "bursztyn-os-lite-1.5-amd64.iso",
+      "rozmiar": "ok. 1,04 GB (1 039 138 816 bajtów)",
+      "sha256": "d76e09a488f062431c666515fd7ab49e8b7e7ba4a672896639376c9dc855fcda",
+      "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-lite-1.5-amd64.iso",
+      "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-lite-1.5-amd64.iso.sha256"
     }
   ]
 }

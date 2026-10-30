@@ -2,13 +2,27 @@
   "_opis": "Ręcznie pisane ogłoszenia. Wpisy o wydaniach dochodzą automatycznie z manifest.json (pole 'historia'). Po zmianie uruchom: python3 generuj.py",
   "wpisy": [
     {
+      "id": "bursztyn-os-1-5-zlota-godzina",
+      "tytul": "Bursztyn OS 1.5 „Złota godzina” już jest!",
+      "data": "2026-11-06",
+      "tresc": [
+        "Wydaliśmy Bursztyn OS 1.5 „Złota godzina” – w pełnej edycji i w edycji Lite.",
+        "Największa zmiana to nowy instalator i nowe narzędzia w systemie. Instalator (edycja Pełna) ma krok „Dysk – jak to działa” z prostym opisem po polsku, wybór pamięci wymiany (bez wymiany, mała wymiana, hibernacja albo plik wymiany), ext4 jako domyślny system plików i opcję „Zainstaluj obok” – dual boot z Windowsem. Menu startowe GRUB samo pokazuje inne zainstalowane systemy. Dual boot sprawdziliśmy na symulowanym dysku z Windowsem w maszynie wirtualnej (UEFI i BIOS) – instalacja na prawdziwym komputerze z Windowsem nie była jeszcze testowana, więc przed instalacją obok Windowsa zrób kopię ważnych danych.",
+        "W systemie pojawiło się okno „O systemie” (wersja, edycja, jądro, procesor, RAM, dysk – z przyciskiem „Kopiuj informacje” do zgłoszeń błędów), tryb nocny (cieplejsze barwy ekranu wieczorem, z przyciskiem ☾ na górnym pasku), sześć nowych tapet z przeglądarką tapet, Centrum aktualizacji z listą aktualizacji i przyciskiem „Zainstaluj wszystkie” oraz Sklep z aplikacjami – ponad 40 wyselekcjonowanych programów po polsku z wyszukiwarką i przyciskami Zainstaluj / Usuń / Otwórz.",
+        "Do tego Ekran telefonu (scrcpy) – podgląd i sterowanie telefonem z Androidem z poziomu komputera, wskaźnik baterii na górnym pasku laptopa z dźwiękami podłączenia i odłączenia ładowarki oraz ostrzeżeniami o niskim poziomie baterii, a w edycji Lite – dźwięk migawki przy zrzucie ekranu.",
+        "Na ekranie powitalnym i w instalatorze współtwórca projektu, asystent AI slavko vinčić, jest teraz wymieniony obok twórcy, Dawida Rosy.",
+        "Na komputerach z wersją 1.4 pojawi się na górnym pasku „★ Nowa wersja” – nowości otrzymasz, instalując 1.5 z obrazu ISO. Pełna lista zmian jest poniżej, we wpisie o wydaniu."
+      ],
+      "link": "pobierz.html"
+    },
+    {
       "id": "bursztyn-os-1-5-premiera-6-listopada",
-      "tytul": "Już wkrótce: Bursztyn OS 1.5 „Złota godzina” – premiera w piątek 6 listopada 2026",
+      "tytul": "Zapowiedź: Bursztyn OS 1.5 „Złota godzina” – premiera w piątek 6 listopada 2026",
       "data": "2026-10-30",
       "tresc": [
-        "Wersja 1.5 „Złota godzina” zadebiutuje w piątek 6 listopada 2026. Do tego dnia do pobrania jest nadal Bursztyn OS 1.4 „Bursztynowy most”.",
+        "Wersja 1.5 „Złota godzina” zadebiutuje w piątek 6 listopada 2026.",
         "Co przygotowujemy: nowy podział dysku w instalatorze (wybór pamięci wymiany – w tym plik wymiany i hibernacja, ext4 jako domyślny system plików), instalację obok Windowsa (dual boot) z menu startowym, które samo pokazuje inne systemy, wskaźnik baterii w laptopie z dźwiękami ładowarki, Sklep z aplikacjami i Centrum aktualizacji, tryb nocny oraz podgląd ekranu telefonu (scrcpy).",
-        "Dual boot sprawdzamy na razie na symulowanym dysku z Windowsem w maszynie wirtualnej – szczegóły podamy przy premierze. Gdy wersja 1.5 będzie gotowa, pojawi się tu i na stronie Pobierz."
+        "Dual boot sprawdzamy na razie na symulowanym dysku z Windowsem w maszynie wirtualnej – szczegóły podamy przy premierze."
       ]
     },
     {

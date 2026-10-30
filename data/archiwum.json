@@ -2,6 +2,30 @@
   "_opis": "Archiwum starszych wydań. Lista „wydania” jest wyświetlana na pobierz.html (sekcja „Archiwum wersji”). Pole „biezace” to zapis aktualnego wydania: gdy w data/wydania.json pojawi się nowsza wersja, generuj.py sam przenosi je do archiwum. Pole „pytania” to treść „Pytań i odpowiedzi” pod archiwum (HTML pisany ręcznie; {AKTUALNA} zamienia się na aktualną wersję); „w_skrocie” to jednozdaniowy opis wersji do pytania „Czym różnią się wersje?” – przy nowym wydaniu uzupełnij je w polu „biezace”.",
   "wydania": [
     {
+      "wersja": "1.4",
+      "nazwa": "Bursztyn OS 1.4",
+      "kryptonim": "Bursztynowy most",
+      "data": "2026-10-29",
+      "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/tag/v1.4",
+      "pliki": [
+        {
+          "edycja": "Pełna",
+          "plik": "bursztyn-os-1.4-amd64.iso",
+          "rozmiar_bajtow": 1716240384,
+          "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.4/bursztyn-os-1.4-amd64.iso",
+          "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.4/bursztyn-os-1.4-amd64.iso.sha256"
+        },
+        {
+          "edycja": "Lite",
+          "plik": "bursztyn-os-lite-1.4-amd64.iso",
+          "rozmiar_bajtow": 1013972992,
+          "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.4/bursztyn-os-lite-1.4-amd64.iso",
+          "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.4/bursztyn-os-lite-1.4-amd64.iso.sha256"
+        }
+      ],
+      "w_skrocie": "KDE Connect (telefon z Androidem) w obu edycjach, nowy zestaw dźwięków systemowych, menu startowe GRUB po polsku i ustawienia zasilania ekranu."
+    },
+    {
       "wersja": "1.3",
       "nazwa": "Bursztyn OS 1.3",
       "kryptonim": "Miodowy blask",
@@ -99,28 +123,28 @@
     }
   ],
   "biezace": {
-    "wersja": "1.4",
-    "nazwa": "Bursztyn OS 1.4",
-    "kryptonim": "Bursztynowy most",
-    "data": "2026-10-29",
-    "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/tag/v1.4",
+    "wersja": "1.5",
+    "nazwa": "Bursztyn OS 1.5",
+    "kryptonim": "Złota godzina",
+    "data": "2026-11-06",
+    "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/tag/v1.5",
     "pliki": [
       {
         "edycja": "Pełna",
-        "plik": "bursztyn-os-1.4-amd64.iso",
-        "rozmiar_bajtow": 1716240384,
-        "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.4/bursztyn-os-1.4-amd64.iso",
-        "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.4/bursztyn-os-1.4-amd64.iso.sha256"
+        "plik": "bursztyn-os-1.5-amd64.iso",
+        "rozmiar_bajtow": 1724678144,
+        "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-1.5-amd64.iso",
+        "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-1.5-amd64.iso.sha256"
       },
       {
         "edycja": "Lite",
-        "plik": "bursztyn-os-lite-1.4-amd64.iso",
-        "rozmiar_bajtow": 1013972992,
-        "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.4/bursztyn-os-lite-1.4-amd64.iso",
-        "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.4/bursztyn-os-lite-1.4-amd64.iso.sha256"
+        "plik": "bursztyn-os-lite-1.5-amd64.iso",
+        "rozmiar_bajtow": 1039138816,
+        "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-lite-1.5-amd64.iso",
+        "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-lite-1.5-amd64.iso.sha256"
       }
     ],
-    "w_skrocie": "KDE Connect (telefon z Androidem) w obu edycjach, nowy zestaw dźwięków systemowych, menu startowe GRUB po polsku i ustawienia zasilania ekranu."
+    "w_skrocie": "nowy instalator z wyborem pamięci wymiany i dual bootem („Zainstaluj obok” Windowsa), okno „O systemie”, tryb nocny, nowe tapety, Centrum aktualizacji, Sklep z aplikacjami, ekran telefonu (scrcpy) i wskaźnik baterii z dźwiękami ładowarki."
   },
   "pytania": [
     {
