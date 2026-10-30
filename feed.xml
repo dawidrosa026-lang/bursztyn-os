@@ -9,7 +9,16 @@
 <managingEditor>287702832+dawidrosa026-lang@users.noreply.github.com (Dawid Rosa)</managingEditor>
 <webMaster>287702832+dawidrosa026-lang@users.noreply.github.com (Dawid Rosa)</webMaster>
 <copyright>Bursztyn OS – twórca: Dawid Rosa · współtwórca: slavko vinčić</copyright>
-<lastBuildDate>Thu, 29 Oct 2026 12:00:00 +0000</lastBuildDate>
+<lastBuildDate>Fri, 30 Oct 2026 12:00:00 +0000</lastBuildDate>
+<item>
+<title>Już wkrótce: Bursztyn OS 1.5 „Złota godzina” – premiera w piątek 6 listopada 2026</title>
+<link>https://dawidrosa026-lang.github.io/bursztyn-os/aktualnosci.html#bursztyn-os-1-5-premiera-6-listopada</link>
+<guid isPermaLink="true">https://dawidrosa026-lang.github.io/bursztyn-os/aktualnosci.html#bursztyn-os-1-5-premiera-6-listopada</guid>
+<pubDate>Fri, 30 Oct 2026 12:00:00 +0000</pubDate>
+<category>Ogłoszenie</category>
+<author>287702832+dawidrosa026-lang@users.noreply.github.com (Dawid Rosa)</author>
+<description>&lt;p&gt;Wersja 1.5 „Złota godzina” zadebiutuje w piątek 6 listopada 2026. Do tego dnia do pobrania jest nadal Bursztyn OS 1.4 „Bursztynowy most”.&lt;/p&gt;&lt;p&gt;Co przygotowujemy: nowy podział dysku w instalatorze (wybór pamięci wymiany – w tym plik wymiany i hibernacja, ext4 jako domyślny system plików), instalację obok Windowsa (dual boot) z menu startowym, które samo pokazuje inne systemy, wskaźnik baterii w laptopie z dźwiękami ładowarki, Sklep z aplikacjami i Centrum aktualizacji, tryb nocny oraz podgląd ekranu telefonu (scrcpy).&lt;/p&gt;&lt;p&gt;Dual boot sprawdzamy na razie na symulowanym dysku z Windowsem w maszynie wirtualnej – szczegóły podamy przy premierze. Gdy wersja 1.5 będzie gotowa, pojawi się tu i na stronie Pobierz.&lt;/p&gt;</description>
+</item>
 <item>
 <title>Bursztyn OS 1.4 „Bursztynowy most” już jest!</title>
 <link>https://dawidrosa026-lang.github.io/bursztyn-os/aktualnosci.html#bursztyn-os-1-4-bursztynowy-most</link>

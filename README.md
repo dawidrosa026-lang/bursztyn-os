@@ -107,6 +107,10 @@ Do nagrania obrazu potrzebny jest pendrive o pojemności co najmniej 4 GB. Obraz
 > **Aktualizacja z 1.3:** wersji 1.4 nie da się zainstalować przez Centrum aplikacji ani `apt` – zainstaluj 1.4 z obrazu ISO.
 > Na komputerach z 1.3 pojawi się „★ Nowa wersja” z listą zmian.
 
+## Plany
+
+- **Bursztyn OS 1.5 „Złota godzina” – premiera w piątek 6 listopada 2026** (nowy podział dysku z plikiem wymiany i hibernacją, instalacja obok Windowsa, wskaźnik baterii, Sklep z aplikacjami, Centrum aktualizacji, tryb nocny, scrcpy). Do tego dnia aktualna jest wersja 1.4.
+
 ## Historia wersji
 
 | Wersja | Data | Co nowego |

@@ -2,6 +2,16 @@
   "_opis": "Ręcznie pisane ogłoszenia. Wpisy o wydaniach dochodzą automatycznie z manifest.json (pole 'historia'). Po zmianie uruchom: python3 generuj.py",
   "wpisy": [
     {
+      "id": "bursztyn-os-1-5-premiera-6-listopada",
+      "tytul": "Już wkrótce: Bursztyn OS 1.5 „Złota godzina” – premiera w piątek 6 listopada 2026",
+      "data": "2026-10-30",
+      "tresc": [
+        "Wersja 1.5 „Złota godzina” zadebiutuje w piątek 6 listopada 2026. Do tego dnia do pobrania jest nadal Bursztyn OS 1.4 „Bursztynowy most”.",
+        "Co przygotowujemy: nowy podział dysku w instalatorze (wybór pamięci wymiany – w tym plik wymiany i hibernacja, ext4 jako domyślny system plików), instalację obok Windowsa (dual boot) z menu startowym, które samo pokazuje inne systemy, wskaźnik baterii w laptopie z dźwiękami ładowarki, Sklep z aplikacjami i Centrum aktualizacji, tryb nocny oraz podgląd ekranu telefonu (scrcpy).",
+        "Dual boot sprawdzamy na razie na symulowanym dysku z Windowsem w maszynie wirtualnej – szczegóły podamy przy premierze. Gdy wersja 1.5 będzie gotowa, pojawi się tu i na stronie Pobierz."
+      ]
+    },
+    {
       "id": "bursztyn-os-1-4-bursztynowy-most",
       "tytul": "Bursztyn OS 1.4 „Bursztynowy most” już jest!",
       "data": "2026-10-29",
