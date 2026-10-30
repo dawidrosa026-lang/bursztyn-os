@@ -64,7 +64,7 @@ Dostępne są dwie edycje:
 - **Sklep z aplikacjami** – ponad 40 wyselekcjonowanych programów po polsku z wyszukiwarką; tryb „Wszystkie pakiety” przeszukuje całe repozytorium Debiana.
 - **Ekran telefonu (scrcpy)** – podgląd i sterowanie telefonem z Androidem (USB lub Wi-Fi); scrcpy pochodzi z `trixie-backports` (włączone z niskim priorytetem – nic nie instaluje się stamtąd samo).
 - **Bateria w laptopie** – wskaźnik na górnym pasku oraz dźwięki podłączenia/odłączenia ładowarki i ostrzeżenia o niskim poziomie baterii; w Lite dźwięk migawki przy zrzucie ekranu.
-- **Lite: powiększanie kursora po potrząśnięciu myszą** – gdy szybko poruszysz myszą w lewo i w prawo, kursor na ok. 1 s robi się duży (3×), żeby łatwiej go znaleźć. Lekki pomocnik na X11 (bez KWin), włączany i wyłączany w oknie „Powiększanie kursora” (Menu → Ustawienia) albo plikiem `~/.config/bursztyn-kursor-off`. W pełnej edycji tej funkcji nie ma.
+- **Powiększanie kursora po potrząśnięciu myszą (obie edycje)** – gdy szybko poruszysz myszą w lewo i w prawo, kursor na ok. 1 s robi się duży (3×), żeby łatwiej go znaleźć. Lekki pomocnik w sesji X11, włączany i wyłączany w oknie „Powiększanie kursora” (Menu → Ustawienia) albo plikiem `~/.config/bursztyn-kursor-off`.
 
 <p align="center">
 <a href="img/zrzuty/o-systemie.jpg"><img src="img/zrzuty/o-systemie.jpg" alt="Okno „O systemie” w Bursztyn OS 1.5" width="410"></a>
@@ -94,8 +94,8 @@ powitalnym i wpis w Menu → Internet.
 
 | Edycja | Plik | Rozmiar | SHA-256 |
 |---|---|---|---|
-| **Pełna** (KDE, Google Chrome) | [`bursztyn-os-1.5-amd64.iso`](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-1.5-amd64.iso) ([.sha256](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-1.5-amd64.iso.sha256)) | ok. 1,72 GB (1 724 678 144 B) | `30bf24682e8bcf3fa9a1b3210cfca6ae9428358cf9c9afc03612845e47460544` |
-| **Lite** (lekkie aplikacje, Firefox ESR) | [`bursztyn-os-lite-1.5-amd64.iso`](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-lite-1.5-amd64.iso) ([.sha256](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-lite-1.5-amd64.iso.sha256)) | ok. 1,04 GB (1 039 138 816 B) | `f197183b16c734bde36abc21cffbd4a70767e559636d7d3bf9bfed176f7e4167` |
+| **Pełna** (KDE, Google Chrome) | [`bursztyn-os-1.5-amd64.iso`](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-1.5-amd64.iso) ([.sha256](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-1.5-amd64.iso.sha256)) | ok. 1,72 GB (1 724 678 144 B) | `8884b72937364785568d0eb9c019783dc9814bf16704301806a6713b3d020d6e` |
+| **Lite** (lekkie aplikacje, Firefox ESR) | [`bursztyn-os-lite-1.5-amd64.iso`](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-lite-1.5-amd64.iso) ([.sha256](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-lite-1.5-amd64.iso.sha256)) | ok. 1,04 GB (1 039 138 816 B) | `571c5c759afbe76872584d571cd8778f9594e876c4d020ebe8f9803dbaba28ab` |
 
 Strona wydania: <https://github.com/dawidrosa026-lang/bursztyn-os/releases/tag/v1.5>
 

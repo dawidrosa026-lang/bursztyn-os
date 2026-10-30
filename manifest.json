@@ -13,7 +13,7 @@
     "Bateria w laptopie – na górnym pasku pojawia się wskaźnik z poziomem naładowania (z podpowiedzią po polsku: procenty, ładowanie albo szacowany czas pracy; kliknięcie pokazuje szczegóły). Na komputerze bez baterii wskaźnika nie widać",
     "Dźwięki zasilania z motywu Bursztyn: podłączenie i odłączenie ładowarki oraz ostrzeżenia o niskim i krytycznym poziomie baterii (z powiadomieniem)",
     "Edycja Lite: zrzut ekranu (klawisze Print, Alt+Print, Shift+Print) gra dźwięk migawki Bursztyn OS, zapisuje obraz w katalogu „Obrazy/Zrzuty ekranu” i pokazuje powiadomienie",
-    "Edycja Lite: powiększanie kursora po potrząśnięciu myszą – gdy szybko poruszysz myszą w lewo i w prawo, kursor na chwilę robi się duży (ok. 1 s), żeby łatwiej go znaleźć; lekki pomocnik na X11 bez KWin, włączany i wyłączany w oknie „Powiększanie kursora” (Menu → Ustawienia) albo plikiem ~/.config/bursztyn-kursor-off",
+    "Powiększanie kursora po potrząśnięciu myszą (obie edycje) – gdy szybko poruszysz myszą w lewo i w prawo, kursor na chwilę robi się duży (ok. 1 s), żeby łatwiej go znaleźć; lekki pomocnik w sesji X11, włączany i wyłączany w oknie „Powiększanie kursora” (Menu → Ustawienia) albo plikiem ~/.config/bursztyn-kursor-off",
     "Instalator (Calamares, edycja Pełna) – nowy krok „Dysk – jak to działa” z prostym opisem po polsku, motyw bursztynowy, wybór pamięci wymiany (bez wymiany, mała wymiana, hibernacja – partycja co najmniej tak duża jak RAM, plik wymiany; domyślnie mała wymiana), konfiguracja wznowienia po hibernacji (resume w initramfs i jądrze), ext4 jako domyślny system plików (do wyboru btrfs i xfs), wymazanie dysku, instalacja obok, zastąpienie partycji i ręczne partycjonowanie, partycja EFI 300 MiB w /boot/efi (BIOS i UEFI)",
     "Współtwórca: slavko vinčić – obok twórcy, Dawida Rosy, w oknach systemu i w instalatorze",
     "Dual boot: instalacja obok Windows (opcja „Zainstaluj obok”) z opisem po polsku, a menu startowe GRUB samo pokazuje inne systemy (włączony os-prober)",
@@ -25,7 +25,7 @@
       "wersja": "1.5",
       "data": "2026-11-06",
       "zmiany": [
-        "Złota godzina: O systemie, tryb nocny, nowe tapety, Centrum aktualizacji, Sklep z aplikacjami, ekran telefonu (scrcpy), nowe dźwięki, wskaźnik baterii z dźwiękami ładowarki, nowy podział dysku z plikiem wymiany i hibernacją oraz dual boot z Windows (os-prober), a w Lite także powiększanie kursora po potrząśnięciu myszą."
+        "Złota godzina: O systemie, tryb nocny, nowe tapety, Centrum aktualizacji, Sklep z aplikacjami, ekran telefonu (scrcpy), nowe dźwięki, wskaźnik baterii z dźwiękami ładowarki, nowy podział dysku z plikiem wymiany i hibernacją oraz dual boot z Windows (os-prober), a w obu edycjach także powiększanie kursora po potrząśnięciu myszą."
       ]
     },
     {
