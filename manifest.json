@@ -17,7 +17,8 @@
     "Instalator (Calamares, edycja Pełna) – nowy krok „Dysk – jak to działa” z prostym opisem po polsku, motyw bursztynowy, wybór pamięci wymiany (bez wymiany, mała wymiana, hibernacja – partycja co najmniej tak duża jak RAM, plik wymiany; domyślnie mała wymiana), konfiguracja wznowienia po hibernacji (resume w initramfs i jądrze), ext4 jako domyślny system plików (do wyboru btrfs i xfs), wymazanie dysku, instalacja obok, zastąpienie partycji i ręczne partycjonowanie, partycja EFI 300 MiB w /boot/efi (BIOS i UEFI)",
     "Współtwórca: slavko vinčić – obok twórcy, Dawida Rosy, w oknach systemu i w instalatorze",
     "Dual boot: instalacja obok Windows (opcja „Zainstaluj obok”) z opisem po polsku, a menu startowe GRUB samo pokazuje inne systemy (włączony os-prober)",
-    "Poprawki: pokaz slajdów instalatora bez białej ramki, prompt terminala zainstalowanego systemu bez przedrostka „(live)”, nowe kafelki w ekranie Witaj (15 kafelków)"
+    "Poprawki: pokaz slajdów instalatora bez białej ramki, prompt terminala zainstalowanego systemu bez przedrostka „(live)”, nowe kafelki w ekranie Witaj (15 kafelków)",
+    "Gry w nowej kategorii „Gry” Menu Bursztyn: w Pełnej edycji 14 gier KDE (Pasjans, KMiny, KBloki, KSudoku, Mahjongg, KBreakOut, Kapman, KDiament, KGoldrunner, Bitwa Morska, Bombowiec, Skoczki – szachy, Kolorowe linie, KReversi), w Lite 7 lekkich gier GNOME (Pasjans AisleRiot, Miny, Sudoku, Quadrapassel, Szachy, Madżong, Reversi) – wszystkie po polsku"
   ],
   "pobierz": "https://dawidrosa026-lang.github.io/bursztyn-os/pobierz.html",
   "historia": [
@@ -25,7 +26,7 @@
       "wersja": "1.5",
       "data": "2026-11-06",
       "zmiany": [
-        "Złota godzina: O systemie, tryb nocny, nowe tapety, Centrum aktualizacji, Sklep z aplikacjami, ekran telefonu (scrcpy), nowe dźwięki, wskaźnik baterii z dźwiękami ładowarki, nowy podział dysku z plikiem wymiany i hibernacją oraz dual boot z Windows (os-prober), a w obu edycjach także powiększanie kursora po potrząśnięciu myszą."
+        "Złota godzina: O systemie, tryb nocny, nowe tapety, Centrum aktualizacji, Sklep z aplikacjami, ekran telefonu (scrcpy), nowe dźwięki, wskaźnik baterii z dźwiękami ładowarki, nowy podział dysku z plikiem wymiany i hibernacją oraz dual boot z Windows (os-prober), a w obu edycjach także powiększanie kursora po potrząśnięciu myszą oraz zestaw polskich gier w kategorii „Gry” Menu Bursztyn (Pełna: 14 gier KDE, Lite: 7 lekkich gier GNOME)."
       ]
     },
     {

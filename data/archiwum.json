@@ -132,19 +132,19 @@
       {
         "edycja": "Pełna",
         "plik": "bursztyn-os-1.5-amd64.iso",
-        "rozmiar_bajtow": 1724678144,
+        "rozmiar_bajtow": 1761607680,
         "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-1.5-amd64.iso",
         "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-1.5-amd64.iso.sha256"
       },
       {
         "edycja": "Lite",
         "plik": "bursztyn-os-lite-1.5-amd64.iso",
-        "rozmiar_bajtow": 1039138816,
+        "rozmiar_bajtow": 1052770304,
         "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-lite-1.5-amd64.iso",
         "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-lite-1.5-amd64.iso.sha256"
       }
     ],
-    "w_skrocie": "nowy instalator z wyborem pamięci wymiany i dual bootem („Zainstaluj obok” Windowsa), okno „O systemie”, tryb nocny, nowe tapety, Centrum aktualizacji, Sklep z aplikacjami, ekran telefonu (scrcpy) i wskaźnik baterii z dźwiękami ładowarki."
+    "w_skrocie": "nowy instalator z wyborem pamięci wymiany i dual bootem („Zainstaluj obok” Windowsa), okno „O systemie”, tryb nocny, nowe tapety, Centrum aktualizacji, Sklep z aplikacjami, ekran telefonu (scrcpy) wskaźnik baterii z dźwiękami ładowarki i zestaw gier po polsku."
   },
   "pytania": [
     {
