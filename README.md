@@ -68,6 +68,7 @@ Dostępne są dwie edycje:
 - **Gry** – nowa kategoria „Gry” w Menu Bursztyn, wszystkie po polsku: w edycji Pełnej 14 gier KDE (Pasjans, KMiny, KBloki, KSudoku, Mahjongg, KBreakOut, Kapman, KDiament, KGoldrunner, Bitwa Morska, Bombowiec, Skoczki – szachy, Kolorowe linie, KReversi), w Lite 7 lekkich gier GNOME (Pasjans AisleRiot, Miny, Sudoku, Quadrapassel, Szachy, Madżong, Reversi). Pełna urosła o ok. 37 MB, Lite o ok. 14 MB.
 - **Lepsza obsługa prawdziwego sprzętu (obie edycje)** – firmware kart graficznych AMD Radeon, Intel i innych (`firmware-amd-graphics`, `firmware-intel-graphics`, `firmware-misc-nonfree`) oraz dźwięku nowszych laptopów (`firmware-sof-signed`), a także poprawka startu ekranu logowania na laptopach z dwiema kartami graficznymi (LightDM nie czeka na „graficzną” sesję logind) – problem wykryty na Sony VAIO. W Lite dodano też `xinit`. Obrazy urosły o ok. 90 MB (Pełna) i ok. 61 MB (Lite).
 - **Regulacja głośności (obie edycje)** – ikona głośnika w górnym pasku z suwakiem i wyciszeniem (po polsku; kółko myszy zmienia głośność, środkowy przycisk wycisza) oraz działające klawisze głośności i wyciszenia w laptopach.
+- **Nowa ikona instalatora (obie edycje)** – bursztynowy pendrive ze strzałką instalacji zamiast ikony płyty/logo, na pulpicie sesji na żywo („Zainstaluj Bursztyn OS”) i w Menu.
 
 <p align="center">
 <a href="img/zrzuty/o-systemie.jpg"><img src="img/zrzuty/o-systemie.jpg" alt="Okno „O systemie” w Bursztyn OS 1.5" width="410"></a>
@@ -97,8 +98,8 @@ powitalnym i wpis w Menu → Internet.
 
 | Edycja | Plik | Rozmiar | SHA-256 |
 |---|---|---|---|
-| **Pełna** (KDE, Google Chrome) | [`bursztyn-os-1.5-amd64.iso`](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-1.5-amd64.iso) ([.sha256](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-1.5-amd64.iso.sha256)) | ok. 1,85 GB (1 851 359 232 B) | `1769b3a602988c2cb4f25eaee1655e999a58081c378f4173af429d7e86a43fc7` |
-| **Lite** (lekkie aplikacje, Firefox ESR) | [`bursztyn-os-lite-1.5-amd64.iso`](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-lite-1.5-amd64.iso) ([.sha256](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-lite-1.5-amd64.iso.sha256)) | ok. 1,11 GB (1 114 193 920 B) | `f42e4c167aee3e3b0ddd1a1fab80af9c07ebd7be5600db32e9a56b156a640031` |
+| **Pełna** (KDE, Google Chrome) | [`bursztyn-os-1.5-amd64.iso`](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-1.5-amd64.iso) ([.sha256](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-1.5-amd64.iso.sha256)) | ok. 1,85 GB (1 851 359 232 B) | `c77277dc556226471cf0ac5368c681b8e5295c9ad1fe45b7fa493de413769278` |
+| **Lite** (lekkie aplikacje, Firefox ESR) | [`bursztyn-os-lite-1.5-amd64.iso`](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-lite-1.5-amd64.iso) ([.sha256](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-lite-1.5-amd64.iso.sha256)) | ok. 1,11 GB (1 114 193 920 B) | `ba5a889896d08a0c65a19feca2779bce2834069c17790051dc8b8beb37612207` |
 
 Strona wydania: <https://github.com/dawidrosa026-lang/bursztyn-os/releases/tag/v1.5>
 
