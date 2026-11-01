@@ -98,8 +98,8 @@ powitalnym i wpis w Menu → Internet.
 
 | Edycja | Plik | Rozmiar | SHA-256 |
 |---|---|---|---|
-| **Pełna** (KDE, Google Chrome) | [`bursztyn-os-1.5-amd64.iso`](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-1.5-amd64.iso) ([.sha256](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-1.5-amd64.iso.sha256)) | ok. 1,85 GB (1 851 359 232 B) | `c77277dc556226471cf0ac5368c681b8e5295c9ad1fe45b7fa493de413769278` |
-| **Lite** (lekkie aplikacje, Firefox ESR) | [`bursztyn-os-lite-1.5-amd64.iso`](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-lite-1.5-amd64.iso) ([.sha256](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-lite-1.5-amd64.iso.sha256)) | ok. 1,11 GB (1 114 193 920 B) | `ba5a889896d08a0c65a19feca2779bce2834069c17790051dc8b8beb37612207` |
+| **Pełna** (KDE, Google Chrome) | [`bursztyn-os-1.5-amd64.iso`](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-1.5-amd64.iso) ([.sha256](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-1.5-amd64.iso.sha256)) | ok. 1,85 GB (1 851 359 232 B) | `851db1f4800924f9ccf9cb0e1f6afc636efa28cfd2362c677e4eea7f914dd092` |
+| **Lite** (lekkie aplikacje, Firefox ESR) | [`bursztyn-os-lite-1.5-amd64.iso`](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-lite-1.5-amd64.iso) ([.sha256](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-lite-1.5-amd64.iso.sha256)) | ok. 1,11 GB (1 114 193 920 B) | `d37047d6c2b9b0663fc22e3dc07f2fee1270c58ab2923ebd81f245f242a7486b` |
 
 Strona wydania: <https://github.com/dawidrosa026-lang/bursztyn-os/releases/tag/v1.5>
 
