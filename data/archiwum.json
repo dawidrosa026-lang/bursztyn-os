@@ -132,14 +132,14 @@
       {
         "edycja": "Pełna",
         "plik": "bursztyn-os-1.5-amd64.iso",
-        "rozmiar_bajtow": 1903263744,
+        "rozmiar_bajtow": 1999503360,
         "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-1.5-amd64.iso",
         "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-1.5-amd64.iso.sha256"
       },
       {
         "edycja": "Lite",
         "plik": "bursztyn-os-lite-1.5-amd64.iso",
-        "rozmiar_bajtow": 1133051904,
+        "rozmiar_bajtow": 1228177408,
         "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-lite-1.5-amd64.iso",
         "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-lite-1.5-amd64.iso.sha256"
       }

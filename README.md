@@ -69,7 +69,7 @@ Dostępne są dwie edycje:
 - **Lepsza obsługa prawdziwego sprzętu (obie edycje)** – firmware kart graficznych AMD Radeon, Intel i innych (`firmware-amd-graphics`, `firmware-intel-graphics`, `firmware-misc-nonfree`) oraz dźwięku nowszych laptopów (`firmware-sof-signed`), a także poprawka startu ekranu logowania na laptopach z dwiema kartami graficznymi (LightDM nie czeka na „graficzną” sesję logind) – problem wykryty na Sony VAIO. W Lite dodano też `xinit`. Obrazy urosły o ok. 90 MB (Pełna) i ok. 61 MB (Lite).
 - **Regulacja głośności (obie edycje)** – ikona głośnika w górnym pasku z suwakiem i wyciszeniem (po polsku; kółko myszy zmienia głośność, środkowy przycisk wycisza) oraz działające klawisze głośności i wyciszenia w laptopach.
 - **Nowa ikona instalatora (obie edycje)** – bursztynowy pendrive ze strzałką instalacji zamiast ikony płyty/logo, na pulpicie sesji na żywo („Zainstaluj Bursztyn OS”) i w Menu.
-- **Narrator głosowy (obie edycje)** – czytnik ekranu Orca z polskim głosem (speech-dispatcher + espeak-ng), domyślnie wyłączony; włączasz go skrótem Super+Alt+S albo wpisem „Narrator głosowy” w Menu Bursztyn (z komunikatem na ekranie), a na ekranie logowania opcją „Czytnik ekranu” w menu ułatwień dostępu. Instalatory (Calamares i d-i) nie mówią.
+- **Narrator głosowy (obie edycje)** – czytnik ekranu Orca z naturalnym, neuronowym głosem polskim Piper (działa offline; zapasowo espeak-ng), domyślnie wyłączony; włączasz go skrótem Super+Alt+S albo wpisem „Narrator głosowy” w Menu Bursztyn (z komunikatem na ekranie), a na ekranie logowania opcją „Czytnik ekranu” w menu ułatwień dostępu. Instalatory (Calamares i d-i) nie mówią.
 
 <p align="center">
 <a href="img/zrzuty/o-systemie.jpg"><img src="img/zrzuty/o-systemie.jpg" alt="Okno „O systemie” w Bursztyn OS 1.5" width="410"></a>
@@ -99,8 +99,8 @@ powitalnym i wpis w Menu → Internet.
 
 | Edycja | Plik | Rozmiar | SHA-256 |
 |---|---|---|---|
-| **Pełna** (KDE, Google Chrome) | [`bursztyn-os-1.5-amd64.iso`](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-1.5-amd64.iso) ([.sha256](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-1.5-amd64.iso.sha256)) | ok. 1,90 GB (1 903 263 744 B) | `6484b5f938c92c16150539ec7914ce6476693f4ed261b5ee6be9ed55011cbc54` |
-| **Lite** (lekkie aplikacje, Firefox ESR) | [`bursztyn-os-lite-1.5-amd64.iso`](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-lite-1.5-amd64.iso) ([.sha256](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-lite-1.5-amd64.iso.sha256)) | ok. 1,13 GB (1 133 051 904 B) | `41160c2b0279610cd3d5ee4d7d1366b9ef25cbfc6d8c84e3c17f9a5a4263fea1` |
+| **Pełna** (KDE, Google Chrome) | [`bursztyn-os-1.5-amd64.iso`](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-1.5-amd64.iso) ([.sha256](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-1.5-amd64.iso.sha256)) | ok. 2,00 GB (1 999 503 360 B) | `75fdfd6c90d5b16f5c7d2e10cd0c6ec92818ad97bcae1e12acbd4d3ca754b0a7` |
+| **Lite** (lekkie aplikacje, Firefox ESR) | [`bursztyn-os-lite-1.5-amd64.iso`](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-lite-1.5-amd64.iso) ([.sha256](https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-lite-1.5-amd64.iso.sha256)) | ok. 1,23 GB (1 228 177 408 B) | `83b53d875a2daeb2cbfa368fa8f65aec8496147c03060fddb014adab0f419bcb` |
 
 Strona wydania: <https://github.com/dawidrosa026-lang/bursztyn-os/releases/tag/v1.5>
 

@@ -29,8 +29,8 @@
         "20 GB miejsca na dysku"
       ],
       "plik": "bursztyn-os-1.5-amd64.iso",
-      "rozmiar": "ok. 1,90 GB (1 903 263 744 bajtów)",
-      "sha256": "6484b5f938c92c16150539ec7914ce6476693f4ed261b5ee6be9ed55011cbc54",
+      "rozmiar": "ok. 2,00 GB (1 999 503 360 bajtów)",
+      "sha256": "75fdfd6c90d5b16f5c7d2e10cd0c6ec92818ad97bcae1e12acbd4d3ca754b0a7",
       "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-1.5-amd64.iso",
       "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-1.5-amd64.iso.sha256"
     },
@@ -62,8 +62,8 @@
         "10 GB miejsca na dysku"
       ],
       "plik": "bursztyn-os-lite-1.5-amd64.iso",
-      "rozmiar": "ok. 1,13 GB (1 133 051 904 bajtów)",
-      "sha256": "41160c2b0279610cd3d5ee4d7d1366b9ef25cbfc6d8c84e3c17f9a5a4263fea1",
+      "rozmiar": "ok. 1,23 GB (1 228 177 408 bajtów)",
+      "sha256": "83b53d875a2daeb2cbfa368fa8f65aec8496147c03060fddb014adab0f419bcb",
       "url": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-lite-1.5-amd64.iso",
       "url_sha256": "https://github.com/dawidrosa026-lang/bursztyn-os/releases/download/v1.5/bursztyn-os-lite-1.5-amd64.iso.sha256"
     }

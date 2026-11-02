@@ -22,7 +22,7 @@
     "Lepsza obsługa prawdziwego sprzętu: firmware dla kart AMD Radeon i innych, poprawka startu ekranu logowania na laptopach z dwiema kartami (wykryte na Sony VAIO)",
     "Regulacja głośności: ikona głośnika w górnym pasku (suwak, wyciszenie, kółko myszy) oraz działające klawisze głośności i wyciszenia w laptopach – w obu edycjach",
     "Nowa ikona instalatora: bursztynowy pendrive ze strzałką instalacji zamiast ikony płyty – na pulpicie sesji na żywo („Zainstaluj Bursztyn OS”) i w Menu, w obu edycjach",
-    "Narrator głosowy (obie edycje): czytnik ekranu Orca z głosem polskim (speech-dispatcher + espeak-ng); domyślnie wyłączony, włączasz go i wyłączasz skrótem Super+Alt+S albo wpisem „Narrator głosowy” w Menu Bursztyn, z komunikatem na ekranie; na ekranie logowania opcja „Czytnik ekranu” w menu ułatwień dostępu"
+    "Narrator głosowy (obie edycje): czytnik ekranu Orca z naturalnym, neuronowym głosem polskim Piper (działa offline; zapasowo espeak-ng); domyślnie wyłączony, włączasz go i wyłączasz skrótem Super+Alt+S albo wpisem „Narrator głosowy” w Menu Bursztyn, z komunikatem na ekranie; na ekranie logowania opcja „Czytnik ekranu” w menu ułatwień dostępu"
   ],
   "pobierz": "https://dawidrosa026-lang.github.io/bursztyn-os/pobierz.html",
   "historia": [
@@ -30,7 +30,7 @@
       "wersja": "1.5",
       "data": "2026-11-06",
       "zmiany": [
-        "Złota godzina: O systemie, tryb nocny, nowe tapety, Centrum aktualizacji, Sklep z aplikacjami, ekran telefonu (scrcpy), nowe dźwięki, wskaźnik baterii z dźwiękami ładowarki, nowy podział dysku z plikiem wymiany i hibernacją oraz dual boot z Windows (os-prober), a w obu edycjach także powiększanie kursora po potrząśnięciu myszą oraz zestaw polskich gier w kategorii „Gry” Menu Bursztyn (Pełna: 14 gier KDE, Lite: 7 lekkich gier GNOME). Do tego lepsza obsługa prawdziwego sprzętu: firmware kart graficznych (AMD Radeon, Intel, inne) i dźwięku oraz poprawka startu ekranu logowania na laptopach z dwiema kartami graficznymi. Dodatkowo ikona regulacji głośności w górnym pasku i działające klawisze głośności. Nowa ikona instalatora w kształcie pendrive. Nowy narrator głosowy (Orca, po polsku, Super+Alt+S)."
+        "Złota godzina: O systemie, tryb nocny, nowe tapety, Centrum aktualizacji, Sklep z aplikacjami, ekran telefonu (scrcpy), nowe dźwięki, wskaźnik baterii z dźwiękami ładowarki, nowy podział dysku z plikiem wymiany i hibernacją oraz dual boot z Windows (os-prober), a w obu edycjach także powiększanie kursora po potrząśnięciu myszą oraz zestaw polskich gier w kategorii „Gry” Menu Bursztyn (Pełna: 14 gier KDE, Lite: 7 lekkich gier GNOME). Do tego lepsza obsługa prawdziwego sprzętu: firmware kart graficznych (AMD Radeon, Intel, inne) i dźwięku oraz poprawka startu ekranu logowania na laptopach z dwiema kartami graficznymi. Dodatkowo ikona regulacji głośności w górnym pasku i działające klawisze głośności. Nowa ikona instalatora w kształcie pendrive. Nowy narrator głosowy (Orca z głosem Piper po polsku, Super+Alt+S)."
       ]
     },
     {
