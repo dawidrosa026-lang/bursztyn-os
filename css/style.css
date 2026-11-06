@@ -134,6 +134,11 @@ details.karta>summary::after{content:"+";color:var(--amber);font-size:1.3rem;lin
 details.karta[open]>summary::after{content:"–"}
 details.karta>div{padding:0 20px 16px;color:var(--przygaszony)}
 details.karta>div p:last-child{margin-bottom:0}
+details.karta .zrzut{margin:14px 0}
+.podpis-tworcy{display:flex;align-items:center;gap:12px;margin:16px 0 0;padding-top:14px;border-top:1px solid var(--linia);color:var(--tekst)}
+.podpis-tworcy-foto{width:48px;height:48px;object-fit:cover;object-position:50% 25%;border-radius:50%;border:2px solid var(--amber);flex-shrink:0}
+.podpis-tworcy strong{display:block;color:var(--jasny)}
+.podpis-tworcy .rola{display:block;color:var(--amber);font-size:.92rem;font-weight:600;margin:0}
 .uwaga{border-left:4px solid var(--amber);background:rgba(245,166,35,.07);padding:12px 16px;border-radius:0 12px 12px 0;color:var(--tekst)}
 
 /* Ogłoszenia */
