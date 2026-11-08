@@ -28,6 +28,12 @@ pre code{background:none;padding:0}
 .pomin{position:absolute;left:-999px;top:8px;background:var(--amber);color:#1a0f05;padding:8px 14px;border-radius:8px;z-index:100}
 .pomin:focus{left:8px}
 
+/* Komunikat o żałobie (Kraków, 7.11.2026) */
+.pasek-zaloba{background:#0f0905;border-bottom:1px solid var(--linia);padding:14px 0 16px;color:var(--tekst)}
+.pasek-zaloba .kontener{border-left:4px solid var(--amber);padding-top:8px;padding-bottom:8px;padding-left:18px}
+.pasek-zaloba-tytul{margin:0 0 6px;color:#fff4e0;font-weight:700;font-size:1.05rem}
+.pasek-zaloba p{margin:0;color:var(--przygaszony);max-width:820px;font-size:.98rem;line-height:1.6}
+
 /* Nagłówek */
 .naglowek{position:sticky;top:0;z-index:50;background:rgba(20,13,7,.86);backdrop-filter:blur(10px);border-bottom:1px solid var(--linia)}
 .naglowek .kontener{display:flex;align-items:center;gap:18px;height:64px}
