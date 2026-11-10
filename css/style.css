@@ -7,8 +7,8 @@
   --max:1160px;
 }
 *{box-sizing:border-box}
-/* Żałoba po tragedii w Krakowie (7.11.2026) */
-html{scroll-behavior:smooth;filter:grayscale(1)}
+/* Żałoba zakończona 10.11.2026 – kolory przywrócone */
+html{scroll-behavior:smooth}
 body{margin:0;background:var(--tlo);color:var(--tekst);
   font:16px/1.65 "Noto Sans","Segoe UI",system-ui,-apple-system,Roboto,Ubuntu,sans-serif;
   -webkit-font-smoothing:antialiased}
